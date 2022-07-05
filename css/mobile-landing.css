@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    overflow-x: hidden
+}
+
+.header-text-area {
+    margin-top: 200px
+}
+
+.my-btn {
+    background-color: #ff8d68;
+    color: #fff;
+    padding: 10px 20px
+}
+
+.navbar {
+    position: relative;
+    z-index: 10;
+    width: 100%
+}
+
+.nav-item {
+    padding: 10px 15px;
+    color: #fff
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff
+}
+
+.menu-icon {
+    display: none
+}
+
+ul li .nav-link:after {
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: #ff8d68;
+    display: block;
+    transition: .5s
+}
+
+ul li:hover .nav-link:after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #ff8d68;
+    display: block
+}
+
+#header {
+    width: 100vw;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%);
+    background: #1a2b94;
+    background: linear-gradient(309deg, #1a2b94 0, #5268f2 100%);
+    color: #fff;
+    position: absolute;
+    top: -20px
+}
+
+h1 {
+    font-weight: 800
+}
+
+#header p {
+    opacity: .7
+}
+
+.header-image {
+    position: relative;
+    top: 150px;
+    right: -100px;
+    width: 95%
+}
+
+.op-8 {
+    opacity: .8
+}
+
+.services-box {
+    background-color: #fcfcfc;
+    border-radius: 15px;
+    border: 1px solid #ebebeb;
+    padding: 30px 20px;
+    transition: .5s;
+    border-left: 2px solid #ebebeb;
+    cursor: pointer
+}
+
+.services-box:hover {
+    background-color: #fff;
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, .1);
+    border-left: 12px solid #5268f2
+}
+
+.services-box .icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: #ff8d68;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px
+}
+
+.services-img img {
+    width: 120%
+}
+
+.services-img {
+    position: sticky;
+    top: 0
+}
+
+.grey-bg {
+    background: #eee
+}
+
+.blue-section {
+    background: #1a2b94;
+    background: linear-gradient(309deg, #1a2b94 0, #5268f2 100%)
+}
+
+.white-text {
+    color: #fff
+}
+
+.blue-section .content-box {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, .1)
+}
+
+.section-3-img-box {
+    height: 600px;
+    overflow-y: hidden
+}
+
+.accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #eee;
+    padding: 2px 10px;
+    margin-top: 8px
+}
+
+.accordion .accordion-item button[aria-expanded=true] {
+    border-bottom: 1px solid #aeaeae
+}
+
+.accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: 0 0;
+    outline: 0
+}
+
+.accordion button:focus,
+.accordion button:hover {
+    cursor: pointer;
+    color: #03b5d2
+}
+
+.accordion button:focus::after,
+.accordion button:hover::after {
+    cursor: pointer;
+    color: #03b5d2;
+    border: 1px solid #03b5d2
+}
+
+.accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+    font-weight: 700;
+    color: #000000c4
+}
+
+.accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px
+}
+
+.accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor
+}
+
+.accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor
+}
+
+.accordion button[aria-expanded=true] {
+    color: #03b5d2
+}
+
+.accordion button[aria-expanded=true] .icon::after {
+    width: 0
+}
+
+.accordion button[aria-expanded=true]+.accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all .2s linear;
+    will-change: opacity, max-height
+}
+
+.accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity .2s linear, max-height .2s linear;
+    will-change: opacity, max-height
+}
+
+.accordion .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0
+}
+
+.col_white_amrc {
+    color: #fff
+}
+
+footer {
+    width: 100%;
+    background-color: #5268f2;
+    min-height: 150px;
+    padding: 10px 0 25px 0
+}
+
+.pt2 {
+    padding-top: 40px;
+    margin-bottom: 20px
+}
+
+footer p {
+    font-size: 13px;
+    color: #ccc;
+    padding-bottom: 0;
+    margin-bottom: 8px
+}
+
+.mb10 {
+    padding-bottom: 15px
+}
+
+.bottom_border {
+    border-bottom: 1px solid #323f45;
+    padding-bottom: 20px
+}
+
+.foote_bottom_ul_amrc {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+	text-align: center;
+}
+
+.foote_bottom_ul_amrc li {
+    display: inline
+}
+
+.foote_bottom_ul_amrc li a {
+    color: #fff;
+    margin: 0 12px
+}
+
+@media screen and (min-width:320px) and (max-width:640px) {
+    .header-image {
+        display: none
+    }
+    .header-text-area {
+        margin-top: 100px
+    }
+    .menu-icon {
+        display: inline-block;
+        cursor: pointer
+    }
+    .navbar-nav {
+        position: absolute;
+        background-color: #374ac4;
+        top: 65px;
+        width: 100vw;
+        height: 100vh;
+        display: none
+    }
+}
+
+.form-control {
+    padding: 25px .635rem;
+    border-radius: 25px
+}
+
+.submit-btn {
+    width: 100%;
+    background: linear-gradient(309deg, #1a2b94 0, #5268f2 100%);
+    padding: 16px .635rem;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bolder
+}
+
+.quick-support {
+    background-color: #f2f6fd
+}
+
+.customers-reviews {
+    height: 100vh
+}
+
+.carousel-indicators {
+    bottom: -35px
+}
+
+.whats-app {
+    width: 57px;
+    position: fixed;
+    bottom: 9px;
+    right: 95px;
+    display: inline-block;
+    z-index: 100000000000;
+}
+
+.height-100 {
+    height: 100vh
+}
+
+@media only screen and (max-width: 600px) {
+	.accordion button[aria-expanded=true]+.accordion-content {
+		opacity: 1;
+		max-height: 17rem;
+		transition: all .2s linear;
+		will-change: opacity, max-height;
+	}
+}

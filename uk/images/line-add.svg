@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1185.7" height="1210.4" viewBox="0 0 1185.7 1210.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #2fba35;
+        stroke-width: 20px;
+        stroke-dasharray: 20 30;
+      }
+
+      .cls-2 {
+        fill: #2fba35;
+      }
+    </style>
+  </defs>
+  <title>line-add</title>
+  <g id="line">
+    <path id="Path_2132" data-name="Path 2132" class="cls-1" d="M1258.1,25.8S1335.1,1185.4,87.6,1185.4" transform="translate(-83.3 -25.2)"/>
+    <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" class="cls-2" d="M100.5,1185.4l37.8-37.8a7.1,7.1,0,1,0-10-10.2h-.1l-42.8,42.8a7.1,7.1,0,0,0-.2,9.9l43,43.1a7.1,7.1,0,0,0,10.3-9.9l-.2-.2Z" transform="translate(-83.3 -25.2)"/>
+  </g>
+</svg>

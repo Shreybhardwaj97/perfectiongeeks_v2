@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318" height="318" viewBox="0 0 318 318">
+  <defs>
+    <clipPath id="clip-walet_1">
+      <rect width="318" height="318"/>
+    </clipPath>
+  </defs>
+  <g id="walet_1" data-name="walet – 1" clip-path="url(#clip-walet_1)">
+    <rect width="318" height="318" fill="#fff"/>
+    <g id="web-design_1_" data-name="web-design (1)" transform="matrix(0.996, -0.087, 0.087, 0.996, 67.028, 120.282)">
+      <g id="icon" transform="translate(23 25.453)">
+        <path id="Path_2040" data-name="Path 2040" d="M23,41.107v87.574a5.33,5.33,0,0,0,5.332,5.33h113.33a5.33,5.33,0,0,0,5.332-5.33V41.107Z" transform="translate(-23 -17.436)" fill="#eeefee"/>
+        <path id="Path_2041" data-name="Path 2041" d="M141.662,25.453H28.332A5.33,5.33,0,0,0,23,30.783V51.65H146.994V30.783a5.33,5.33,0,0,0-5.332-5.33Z" transform="translate(-23 -25.453)" fill="#62667c"/>
+        <circle id="Ellipse_132" data-name="Ellipse 132" cx="4.799" cy="4.799" r="4.799" transform="translate(70.778 8.295)" fill="#2cbfae"/>
+        <circle id="Ellipse_133" data-name="Ellipse 133" cx="4.799" cy="4.799" r="4.799" transform="translate(87.75 8.295)" fill="#f6c863"/>
+        <circle id="Ellipse_134" data-name="Ellipse 134" cx="4.799" cy="4.799" r="4.799" transform="translate(104.72 8.295)" fill="#ef5261"/>
+      </g>
+    </g>
+    <path id="Path_2046" data-name="Path 2046" d="M1691.376,2634.063s-133.21-16.916-165.631,77.529" transform="translate(-1373.376 -2602)" fill="none" stroke="#62667c" stroke-width="4"/>
+    <path id="Icon_awesome-angle-left" data-name="Icon awesome-angle-left" d="M2.229,16.8l9.563-9.562a1.681,1.681,0,0,1,2.384,0l1.589,1.589a1.681,1.681,0,0,1,0,2.384L8.993,18l6.778,6.778a1.681,1.681,0,0,1,0,2.384l-1.589,1.6a1.681,1.681,0,0,1-2.384,0L2.236,19.2A1.683,1.683,0,0,1,2.229,16.8Z" transform="matrix(0.309, -0.951, 0.951, 0.309, 132.469, 111.237)" fill="#62667c"/>
+    <text id="Convert_This_" data-name="Convert This !!" transform="translate(77 292)" fill="#2e91fc" font-size="25" font-family="Raleway-Black, Raleway" font-weight="800"><tspan x="0" y="0">Convert This !!</tspan></text>
+    <path id="Icon_material-error-outline" data-name="Icon material-error-outline" d="M17.526,23.982h3.228V27.21H17.526Zm0-12.912h3.228v9.684H17.526ZM19.124,3A16.14,16.14,0,1,0,35.28,19.14,16.132,16.132,0,0,0,19.124,3Zm.016,29.052A12.912,12.912,0,1,1,32.052,19.14,12.909,12.909,0,0,1,19.14,32.052Z" transform="matrix(0.996, -0.087, 0.087, 0.996, 139.265, 188.601)" fill="#bebebe"/>
+  </g>
+</svg>

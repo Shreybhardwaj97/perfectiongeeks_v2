@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318" height="318" viewBox="0 0 318 318">
+  <defs>
+    <clipPath id="clip-walet_2">
+      <rect width="318" height="318"/>
+    </clipPath>
+  </defs>
+  <g id="walet_2" data-name="walet – 2" clip-path="url(#clip-walet_2)">
+    <rect width="318" height="318" fill="#fff"/>
+    <path id="Path_2046" data-name="Path 2046" d="M1525.745,2634.063s122.543-16.916,152.369,77.529" transform="translate(-1541.929 -2617.185)" fill="none" stroke="#62667c" stroke-width="4"/>
+    <path id="Icon_awesome-angle-left" data-name="Icon awesome-angle-left" d="M2.229,16.8l9.563-9.562a1.681,1.681,0,0,1,2.384,0l1.589,1.589a1.681,1.681,0,0,1,0,2.384L8.993,18l6.778,6.778a1.681,1.681,0,0,1,0,2.384l-1.589,1.6a1.681,1.681,0,0,1-2.384,0L2.236,19.2A1.683,1.683,0,0,1,2.229,16.8Z" transform="translate(121.602 106.925) rotate(-107)" fill="#62667c"/>
+    <text id="Into_This_" data-name="Into This !!" transform="translate(95 292)" fill="#2e91fc" font-size="25" font-family="Raleway-Black, Raleway" font-weight="800"><tspan x="0" y="0">Into This !!</tspan></text>
+    <g id="web-design_1_" data-name="web-design (1)" transform="matrix(0.951, 0.309, -0.309, 0.951, 114.577, 93.631)">
+      <g id="Circle_Grid" data-name="Circle Grid">
+        <circle id="Ellipse_131" data-name="Ellipse 131" cx="69.19" cy="69.19" r="69.19" fill="#ef5261"/>
+      </g>
+      <g id="icon" transform="translate(24.865 27.517)">
+        <path id="Path_2040" data-name="Path 2040" d="M23,41.107v62.612a3.811,3.811,0,0,0,3.812,3.811h81.026a3.811,3.811,0,0,0,3.812-3.811V41.107Z" transform="translate(-23 -24.184)" fill="#eeefee"/>
+        <path id="Path_2041" data-name="Path 2041" d="M107.838,25.453H26.812A3.811,3.811,0,0,0,23,29.264V44.183h88.65V29.264a3.811,3.811,0,0,0-3.812-3.811Z" transform="translate(-23 -25.453)" fill="#62667c"/>
+        <circle id="Ellipse_132" data-name="Ellipse 132" cx="3.431" cy="3.431" r="3.431" transform="translate(50.603 5.931)" fill="#2cbfae"/>
+        <circle id="Ellipse_133" data-name="Ellipse 133" cx="3.431" cy="3.431" r="3.431" transform="translate(62.737 5.931)" fill="#f6c863"/>
+        <circle id="Ellipse_134" data-name="Ellipse 134" cx="3.431" cy="3.431" r="3.431" transform="translate(74.87 5.931)" fill="#ef5261"/>
+        <g id="Group_16196" data-name="Group 16196" transform="translate(5.676 25.799)">
+          <path id="Path_2042" data-name="Path 2042" d="M28.25,49.317h77.3v12.1H28.25Z" transform="translate(-28.25 -49.317)" fill="#dbd8dd"/>
+          <path id="Path_2043" data-name="Path 2043" d="M28.25,66.817h77.3v12.1H28.25Z" transform="translate(-28.25 -47.898)" fill="#dbd8dd"/>
+          <path id="Path_2044" data-name="Path 2044" d="M28.25,85.15H62.664v12.1H28.25Z" transform="translate(-28.25 -46.411)" fill="#dbd8dd"/>
+          <path id="Path_2045" data-name="Path 2045" d="M67.1,85.15h34.414v12.1H67.1Z" transform="translate(-25.099 -46.411)" fill="#dbd8dd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

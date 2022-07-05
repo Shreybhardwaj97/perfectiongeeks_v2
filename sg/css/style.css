@@ -1,0 +1,255 @@
+*{margin:0;padding:0;font-family:Poppins,sans-serif}body{overflow-x:hidden}:root{--green-color:#2FBA35;--other-font:'Castoro',serif;--black-color:#2b2b2b}h1{color:#1c2227}p{color:#1c2227a6;font-size:14px}a{text-decoration:none}nav{width:100vw;height:80px;background-color:#fff;border-bottom:1px solid #70707016;position:fixed;z-index:1000}.logo{width:150px}.menu{list-style:none;margin:0}li.menu-items{display:inline-block}li.menu-items a{color:#2b2b2b;text-decoration:none;text-transform:uppercase;position:relative;padding:10px 20px;transition:.5s}li.menu-items a::after{content:"";width:0%;height:2px;background-color:#2fba35;position:absolute;bottom:-5px;left:0;transition:.5s}li.menu-items:hover a::after{content:"";width:100%}li.menu-items a:hover{font-weight:600}.close-menu,.menu-icon{display:none}.dark-section{background-color:#eee}.green-btn-fill{color:#fff;background-color:#2fba35;padding:15px 30px;border:none}.green-btn-fill:hover{color:#fff}.green-btn-outline{color:var(--green-color);border:2px solid #2fba35;padding:15px 30px;position:relative;display:inline-block}.green-btn-outline:hover{color:var(--green-color)}.green-color{color:var(--green-color)}.heading{font-size:2.4rem}.black-text{color:var(--black-color);font-size:1.5rem}.white-color{color:#fff!important}.top-section{height:100vh;background-color:#00000016;padding-top:100px}.header-section-heading{font-family:var(--other-font);font-size:3.8rem;color:var(--black-color);line-height:76px}.small-text{font-family:var(--other-font);color:var(--black-color)}.about-section{width:100%;height:70vh;background-image:url(../images/about-background.jpg);background-size:cover;position:relative;background-position:center;background-attachment:fixed;margin-bottom:8.5rem}.about-section:after{content:"";width:100%;height:100%;position:absolute;background-color:#00000066}.about-section .content-box{background-color:#fff;position:relative;top:100px;z-index:1;box-shadow:0 0 5px 5px #0000001f}.section-title{position:relative}.section-title p{font-size:13px;margin-bottom:5px;font-weight:400}.section-title h4{font-size:40px;font-weight:600;text-transform:capitalize;position:relative;padding-bottom:20px;display:inline-block}.section-title h4:before{position:absolute;content:"";width:80px;height:2px;background-color:#d8d8d8;bottom:0;left:50%;margin-left:-40px}.section-title h4:after{position:absolute;content:"";width:50px;height:2px;background-color:#08a742;left:0;bottom:0;left:50%;margin-left:-25px}.single-service{position:relative;text-align:center;margin-bottom:20px;-webkit-transition:.3s;transition:.3s;height:89%;padding:30px 20px;box-shadow:0 1px 4px rgba(0,0,0,.16);cursor:pointer;border-radius:10px;background-color:#fff}.single-service:before{position:absolute;width:0;height:0;background-color:#08a742;left:5px;top:0;content:"";-webkit-transition:.3s;transition:.3s}.single-service:after{position:absolute;width:0;height:0;background-color:#08a742;right:5px;bottom:0;content:"";-webkit-transition:.3s;transition:.3s}.single-service:hover:after,.single-service:hover:before{width:50%;height:2px;-webkit-transition:.3s;transition:.3s}.single-service:hover{box-shadow:0 15px 33px 0 rgba(0,0,0,.25)}.single-service i.fa{font-size:20px;width:60px;height:60px;border:1px solid #ddd;line-height:60px;margin-bottom:30px;border-radius:50%;-webkit-transition:.3s;transition:.3s}.single-service:hover i.fa{background-color:#08a742;color:#fff;border-color:#08a742;border-radius:0}.single-service h4{font-size:16px;font-weight:600;margin-bottom:15px;text-transform:capitalize}.single-service p{font-size:13px;line-height:1.8}.single-service img{width:4vw}.portfolio-box{width:100%;height:auto;overflow-x:hidden}.portfolio-images-box{display:flex;width:2000px;position:relative}.portfolio-images-box .portfolio{width:400px;margin:5px}.services-box p{font-size:13px}.services-box{transition:.5s}.services-box:hover{background-color:#eee}.contact-images-box{width:100%;height:250px;background-image:url(../images/contact-background.jpg);background-size:cover;background-position:top;background-repeat:no-repeat}.form-box{background-color:#fff;margin-top:-100px;box-shadow:0 0 5px 5px #0000001f}.form-control{padding:.8rem .75rem}.heading-section{width:100vw;height:90vh;background-position:center;background-repeat:no-repeat;background-attachment:fixed;position:relative;color:#fff}.about-heading-section{background-image:url(../images/about-bg.jpg)}.services-heading-section{background-image:url(../images/services-bg.jpg)}.heading-section:after{top: 0;position:absolute;display:block;content:"";width:100%;height:100%;background-color:rgba(0,0,0,.8)}.heading-section div{z-index:1}.culture-box{border-top:1px solid #1b1b1b30;cursor:pointer;transition:.5s}.culture-box:hover{border-top:1px solid #2fba35;background-color:#eeeeee5c}.team-box{width:150px;height:150px;overflow:hidden;border-radius:50%;margin:auto}.team-box img{width:100%}.services-box img{width:63px}.footer{background-color:#121212}.footer ul{list-style:none;margin-left:0;padding-left:0}footer ul li{list-style:none;padding-top:15px}footer .heading-text{color:#fff;font-size:13px;margin-bottom:0}footer .text{color:#dfdfdf96;font-size:14px;line-height:27px}footer a{color:#dfdfdf96;text-decoration:none;font-size:13px;transition:.5s}footer .social-media li:nth-child(1){width:40px;height:40px;margin-left:0}footer .social-media li{width:40px;height:40px;margin-left:11px}.social-media li{width:50px;height:50px;background-color:#2fba35;padding-top:0;border-radius:50%;margin-left:28px;font-size:25px}.top-section-other{height:80vh}.services-img-box{width:100%;height:150px;overflow:hidden}#idea{width:100px;fill:#00000026;margin:auto}#idea #main-body{fill:#00000026}#idea #one{animation:ideaone 15s infinite}@keyframes ideaone{0%{fill:#00000026}1%{fill:#2fba35}100%{fill:#2fba35}}#idea #two{animation:ideatwo 15s infinite}@keyframes ideatwo{0%{fill:#00000026}2%{fill:#00000026}3%{fill:#2fba35}100%{fill:#2fba35}}#idea #three{animation:ideathree 15s infinite}@keyframes ideathree{0%{fill:#00000026}4%{fill:#00000026}5%{fill:#2fba35}100%{fill:#2fba35}}#idea #four{animation:ideafour 15s infinite}@keyframes ideafour{0%{fill:#00000026}6%{fill:#00000026}7%{fill:#2fba35}100%{fill:#2fba35}}#idea #five{animation:ideafive 15s infinite}@keyframes ideafive{0%{fill:#00000026}8%{fill:#00000026}9%{fill:#2fba35}100%{fill:#2fba35}}#idea #six{animation:ideasix 15s infinite}@keyframes ideasix{0%{fill:#00000026}10%{fill:#00000026}11%{fill:#2fba35}100%{fill:#2fba35}}#idea #seven{animation:ideaseven 15s infinite}@keyframes ideaseven{0%{fill:#00000026}12%{fill:#00000026}13%{fill:#2fba35}100%{fill:#2fba35}}#idea #eight{animation:ideaeight 15s infinite}@keyframes ideaeight{0%{fill:#00000026}14%{fill:#00000026}15%{fill:#2fba35}100%{fill:#2fba35}}#idea #nine{animation:ideanine 15s infinite}@keyframes ideanine{0%{fill:#00000026}16%{fill:#00000026}17%{fill:#2fba35}100%{fill:#2fba35}}#idea #main-body{animation:ideamain-body 15s infinite}@keyframes ideamain-body{0%{fill:#00000026}18%{fill:#00000026}20%{fill:#212529}100%{fill:#212529}}#line-one{position:relative;top:58px;left:185px}#line-one .cls-1{stroke:#9f9f9f;stroke-miterlimit:10;stroke-width:1.7;stroke-dasharray:2000;stroke-dashoffset:0}#line-one .cls-1{animation:connectlineone 15s infinite}@keyframes connectlineone{0%{stroke-dasharray:2000;stroke-dashoffset:2000}21%{stroke-dasharray:2000;stroke-dashoffset:2000}28%{stroke:#9f9f9f;stroke-dashoffset:0}100%{stroke:#9f9f9f;stroke-dashoffset:0}}#our-services{width:100px;fill:#d5d5d5;margin:auto}#our-services .cls-1{fill:#212121}#our-services .cls-2{fill:#2fba35}#our-services #upper-body .cls-2{animation:ourservicesupperbody 15s infinite}@keyframes ourservicesupperbody{0%{fill:#d5d5d5}29%{fill:#d5d5d5}30%{fill:#2fba35}100%{fill:#2fba35}}#our-services #main-body .cls-1{animation:ourservicesmainbody 15s infinite}@keyframes ourservicesmainbody{0%{fill:#d5d5d5}31%{fill:#d5d5d5}35%{fill:#212121}100%{fill:#212121}}#our-services #eyes{animation:ourservicesmainbody 15s infinite}#line-two{position:relative;top:58px;left:185px}#line-two .cls-1{stroke:#9f9f9f;stroke-miterlimit:10;stroke-width:1.7}#line-two .cls-1{animation:connectlinetwo 15s infinite;stroke-dasharray:200;stroke-dashoffset:0}@keyframes connectlinetwo{0%{stroke-dasharray:2000;stroke-dashoffset:2000}36%{stroke-dasharray:2000;stroke-dashoffset:2000}48%{stroke:#9f9f9f;stroke-dashoffset:0}100%{stroke:#9f9f9f;stroke-dashoffset:0}}#achieve{width:100px}#achieve .cls-1{fill:#2fba35}#achieve #line{animation:achieveline 15s infinite}@keyframes achieveline{0%{fill:#d5d5d5}41%{fill:#d5d5d5}46%{fill:#212121}100%{fill:#212121}}#achieve #one{animation:achieveone 15s infinite}@keyframes achieveone{0%{fill:#d5d5d5}47%{fill:#d5d5d5}48%{fill:#2fba35}100%{fill:#2fba35}}#achieve #two{animation:achievetwo 15s infinite}@keyframes achievetwo{0%{fill:#d5d5d5}49%{fill:#d5d5d5}50%{fill:#2fba35}100%{fill:#2fba35}}#achieve #three{animation:achievethree 15s infinite}@keyframes achievethree{0%{fill:#d5d5d5}51%{fill:#d5d5d5}52%{fill:#2fba35}100%{fill:#2fba35}}.technology-section .tab-technology-block .tabs{margin:0;padding:0;list-style:none;text-align:center;border-bottom:1px solid #ccc;margin-bottom:35px}.technology-section .tab-technology-block .tabs li{background:0 0;color:#222;display:inline-block;padding:22px 35px;cursor:pointer;font-size:16px;font-weight:600}.technology-section .tab-technology-block .tabs .tab-current{background:0 0;color:#2fba35;border-bottom:2px solid;transition:0s}.technology-section .tab-technology-block .tab-content{display:none;background:0 0;padding:15px;text-align:center;padding-top:30px}.technology-section .tab-technology-block .show-tab-content{display:inherit}.technology-section .tab-technology-block .tab-content .icons{display:inline-block;text-align:center;min-width:170px;padding-bottom:40px}.technology-section .tab-technology-block .tab-content .icons p{font-weight:600;color:#212121;margin-top:18px}ul.services-link{list-style:none;padding:0;position:sticky;top:64px}ul.services-link li{padding:20px 0}ul.services-link li a{font-size:20px;color:#a9a9a9}ul.services-link li .active-services{color:#2fba35}.services-banner-image{height:100vh}.services-header-text{font-size:50px}.second-heading{font-weight:700;padding-bottom:10px;font-size:30px;line-height:50px;color:#212529}.services p{font-size:16px;line-height:30px;letter-spacing:.4px;color:#333;font-weight:300}.services-background-section{height:600px;width:100%;background-attachment:fixed;background-size:cover}.web-application-background{background-image:url(../images/services-bg.jpg)}.mobile-development-services-singapore{background-image:url(https://www.perfectiongeeks.com/images/blog/startup-app-development-company.jpg)}.hide-content{display:none}.border.border-blue{background-color:#2e91fc0f}.border.border-blue:hover p{font-weight:700}.accordion .accordion-item{border-bottom:1px solid #00000029}.accordion .accordion-item button[aria-expanded=true]{border-bottom:1px solid #e5e5e51f}.accordion button{position:relative;display:block;text-align:left;width:100%;padding:1em 0;color:#212121;font-size:1.15rem;font-weight:700;border:none;background:0 0;outline:0}.accordion button:focus,.accordion button:hover{cursor:pointer;color:#2fba35}.accordion button:focus::after,.accordion button:hover::after{cursor:pointer;color:#2fba35;border:1px solid #2fba35}.accordion button .accordion-title{padding:1em 1.5em 1em 0}.accordion button .icon{display:inline-block;position:absolute;top:18px;right:0;width:22px;height:22px;border:1px solid;border-radius:22px}.accordion button .icon::before{display:block;position:absolute;content:"";top:9px;left:5px;width:10px;height:2px;background:currentColor}.accordion button .icon::after{display:block;position:absolute;content:"";top:5px;left:9px;width:2px;height:10px;background:currentColor}.accordion button[aria-expanded=true]{color:#2fba35}.accordion button[aria-expanded=true] .icon::after{width:0}.accordion button[aria-expanded=true]+.accordion-content{opacity:1;max-height:41em;transition:all .2s linear;will-change:opacity,max-height}.accordion .accordion-content{opacity:0;max-height:0;overflow:hidden;transition:opacity .2s linear,max-height .2s linear;will-change:opacity,max-height}.accordion .accordion-content p{font-size:1rem;font-weight:300;color:#151515}.accordion-item{border:unset}.contact-2 a{font-size:22px;font-weight:600;color:#212121}.contact a{color:#1c2227a6;font-size:14px}.width-full{width:100%}.contact-heading-section{background-image:url(../images/contact-background.jpg)}.grid-three{display:grid;grid-template-columns:auto auto auto;grid-column-gap:24px;grid-row-gap:24px}@media screen and (min-width:321px) and (max-width:768px){ul.menu{background-color:#fff;width:100vw;height:100vh;padding:13px;position:absolute;display:none;left:0;top:80px}li.menu-items{display:block;padding:10px}.menu-icon{display:inline-block}.top-section{height:auto}.header-section-heading{font-size:1.8rem;line-height:unset}.heading{font-size:1.8rem}.portfolio-images-box{display:unset;width:unset;position:unset}.about-section{height:unset}.portfolio-images-box .portfolio{width:unset}#line-one,#line-two{display:none}.single-service img{width:28vw}.services-banner-image{height:unset;width:100%}.grid-three{grid-template-columns:auto}.services-header-text{font-size:30px}.second-heading{line-height:unset;font-size:23px}.services-background-section{height:235px;width:100%;background-attachment:unset;background-size:contain}}
+#skype-input {
+    background-color: unset;
+    color: #dfdfdf96;
+    border: none;
+    width: 67%;
+}
+.copy {
+    color: #2fba35;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.web-development-services-singapore {
+    background-image: url(../images/web-development-services-singapore.jpg);
+}
+.react-native-app-services {
+    background-image: url(../images/react-native-app-services.jpg);
+}
+.ios-application-background {
+    background-image: url(https://d32yelkel05fze.cloudfront.net/pfiles/new/images/ios-app-development-services.jpg);
+}
+.MLM-app-development-company {
+     background-image: url(https://stargazeevents.s3.ap-south-1.amazonaws.com/pfiles/new/images/mlm-bg.jpg);
+}
+.website-redesign-services {
+    background-image: url(https://d32yelkel05fze.cloudfront.net/pfiles/new/images/web-development-services.jpg);
+}
+
+.nodejs-development-services-singapore{
+    background-image: url(../images/nodejs-development-services-singapore.jpg);
+}
+
+
+/*-------------BLOG PAGE CSS-----------*/
+
+.innerz img{
+    width: 100%;
+    border-radius: 10px;
+}
+.text-black{
+    color: black !important;
+}
+.green-color {
+    color: var(--green-color) !important;
+}
+.technology-header h1 {
+    font-size: 72px;
+    line-height: 79px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    font-family: Poppins,sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.blogs-heading-section {
+    background-image: url(../images/blog-bg.jpg);
+}
+
+ 
+.blog-pg p{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .4px;
+    color: #1c2227a6;
+    font-weight: 300;
+}
+.blog-pg .list{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .4px;
+    color: #1c2227a6;
+    font-weight: 300;
+}
+.bg-cover{
+    background-size: cover;
+}
+
+
+.android-app-developers-in-singapore{
+    background-image: url(../images/blog/android-app-developers-in-singapore.jpg);
+}
+.singapore-is-hub-of-cryptocurrencies{
+    background-image: url(../images/blog/singapore-is-hub-of-cryptocurrencies.jpg);
+}
+.importance-of-react-native-mobile-app-development{
+    background-image: url(../images/blog/importance-of-react-native-mobile-app-development.jpg);
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: .5rem;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: "/";
+}
+.breadcrumb-item a {
+    color: white;
+    font-weight: 700;
+}
+.breadcrumb-item.active {
+    color: #08a742 !important;
+}
+.bg-darkin{
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+.br-1{
+    border-radius: 0.25rem;
+}
+.pl-3{
+    padding-left: 30px;
+}
+.need-of-web-development-services{
+    background-image: url(../images/blog/need-of-web-development-services.jpg);
+}
+.how-to-create-saas-application{
+    background-image: url(../images/blog/how-to-create-saas-application.jpg);
+}
+.make-your-website-stand-out{
+    background-image: url(../images/blog/make-your-website-stand-out.jpg);
+}
+.trusted-website-redesign-solutions{
+    background-image: url(../images/blog/trusted-website-redesign-solutions.jpg);
+}
+.ways-blockchain-benefits-mobile-app-services{
+    background-image: url(../images/blog/6-ways-blockchain-benefits-mobile-app-services.jpg);
+}
+
+.cost-of-development-an-app-in-singapore{
+    background-image: url(../images/blog/cost-of-development-an-app-in-singapore.jpg);
+}
+
+
+.cost-of-custom-saas-app-development{
+    background-image: url(../images/blog/cost-of-custom-saas-app-development.jpg);
+}
+
+
+.most-important-elements-of-a-web-design{
+    background-image: url(../images/blog/most-important-elements-of-a-web-design.jpg);
+}
+
+
+
+
+/*========PORTFOLIO CSS START========*/
+.bg-green{
+    background-color: #08a742;
+}
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 0px;
+    transform: translate(0px, -50%);
+    padding: 80px;
+    border-radius: 5px;
+}
+.laptop-slides {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.lappy .fa-long-arrow-alt-right{
+    background: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    position: absolute;
+    left: 60px;
+    color: #08a742;
+}
+.lappy .fa-long-arrow-alt-left{
+    background: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    color: #08a742;
+}
+.flickity-page-dots {
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+    display: none;
+}
+.scroll {
+    overflow-y: scroll;
+    background-color: #04092c;
+    height: 60vh;
+    color: #fff;
+    padding: 0px;
+}
+
+.bg-lap{
+    background-image: url(../images/portfoliopg/laptop.png);
+    background-size: contain;
+    background-position:center ;
+}
+
+
+.mobile-app-development-consulting-services-in-singapore{
+    background-image: url(../images/blog/mobile-app-development-consulting-services-in-singapore.jpg);
+}
+
+.hire-the-best-web-development-company-in-singapore{
+    background-image: url(../images/blog/hire-the-best-web-development-company-in-singapore.jpg);
+}
+.nine-steps-to-build-website{
+    background-image: url(../images/blog/nine-steps-to-build-website.jpg);
+}
+
+
+/*========PORTFOLIO CSS END========*/
+
+
+
+
+.whatsApp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.my-whatsApp{
+    margin-top:16px;
+}
+.whatsApp:hover{
+    color: white;
+}
+
+
+
+.choosing-best-ios-app-development-in-singapore{
+    background-image: url(../images/blog/choosing-best-ios-app-development-in-singapore.jpg);
+}

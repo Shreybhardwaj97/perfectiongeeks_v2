@@ -1,0 +1,57 @@
+@charset "UTF-8";@import "https://stargazeevents.s3-accelerate.amazonaws.com/pfiles/new/css/bootstrap.min.css";@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";@import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+.main_header_area.navbar_fixed {
+    background: #fff;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 18px 0 rgb(222 222 222 / 75%);
+    padding: 0;
+    height: 80px;
+    transform: translateY(0);
+    transition: transform .5s ease,background .2s ease;
+    -webkit-transition: transform .9s ease,background .6s ease;
+}
+.main_header_area {
+    display: block;
+    width: 100%;
+    z-index: 9999;
+    position: absolute;
+}
+.blue-bg {
+    min-height: 70vh !important;
+}
+.blue-bg {
+    background-color: #2c39f2;
+    min-height: 90vh;
+    max-height: unset;
+}
+.mha_2 .header_menu {
+    padding-right: 0;
+    padding-top: 30px;
+}
+.main_header_area .header_menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    padding-right: 100px;
+}
+.main_header_area .header_menu .navbar {
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+.main_header_area .header_menu .navbar .navbar-brand {
+    line-height: 50px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,2679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+   <title>Web server security | web security | server security solutions</title>
+   <meta name="facebook-domain-verification" content="fywxkrew9ppxkauo3biclxbzgg7wtk" />
+   <meta name="description"
+      content="Being a website owner or a cloud worker, website or web server security is the major priority for every individual, and in sum to secure the site from attackers here are the astonishing solutions." />
+   <link rel="icon" href="images/favicon.svg" type="image/x-icon" />
+   <link rel="canonical" href="https://www.perfectiongeeks.com/priority-for-your-server">
+   <!-- Theme tittle -->
+   <!-- Theme style CSS -->
+   <link href="css/style.css" rel="stylesheet">
+
+   <link rel="alternate" href="https://www.perfectiongeeks.com/priority-for-your-server" hreflang="en-gb" />
+   <meta property="og:image"
+      content="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/blog/web-server-security.jpg" />
+   <meta property="og:image:width" content="750" />
+   <meta property="og:image:height" content="438" />
+   <script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.perfectiongeeks.com"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Who we are",
+    "item": "https://www.perfectiongeeks.com/about"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Our Team",
+    "item": "https://www.perfectiongeeks.com/team"  
+  },{
+    "@type": "ListItem", 
+    "position": 4, 
+    "name": "Ux Ui Design",
+    "item": "https://www.perfectiongeeks.com/uxui-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 5, 
+    "name": "Product Design",
+    "item": "https://www.perfectiongeeks.com/uxui-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 6, 
+    "name": "Wireframe",
+    "item": "https://www.perfectiongeeks.com/wireframe-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 7, 
+    "name": "Mobile ui Design",
+    "item": "https://www.perfectiongeeks.com/mobile-ui-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 8, 
+    "name": "Web Design Services",
+    "item": "https://www.perfectiongeeks.com/web-design-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 9, 
+    "name": "Android Development",
+    "item": "https://www.perfectiongeeks.com/android-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 10, 
+    "name": "Dapp Development",
+    "item": "https://www.perfectiongeeks.com/dapp-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 11, 
+    "name": "Web Development",
+    "item": "https://www.perfectiongeeks.com/web-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 12, 
+    "name": "IOT Development",
+    "item": "https://www.perfectiongeeks.com/iot-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 13, 
+    "name": "Artificial Intelligence",
+    "item": "https://www.perfectiongeeks.com/artificial-intelligence-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 14, 
+    "name": "IOS  Development",
+    "item": "https://www.perfectiongeeks.com/ios-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 15, 
+    "name": "Argument Reality",
+    "item": "https://www.perfectiongeeks.com/augmented-reality-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 16, 
+    "name": "Bot Development",
+    "item": "https://www.perfectiongeeks.com/bot-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 17, 
+    "name": "Wearable Development",
+    "item": "https://www.perfectiongeeks.com/wearable-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 18, 
+    "name": "Cloud Computing",
+    "item": "https://www.perfectiongeeks.com/cloud-computing-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 19, 
+    "name": "Machine Learning",
+    "item": "https://www.perfectiongeeks.com/machine-learning-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 20, 
+    "name": "Blockchain Solutions",
+    "item": "https://www.perfectiongeeks.com/blockchain-solutions-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 21, 
+    "name": "IPFS Blockchain Development",
+    "item": "https://www.perfectiongeeks.com/ipfs-blockchain-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 22, 
+    "name": "Blockchain App Development",
+    "item": "https://www.perfectiongeeks.com/blockchain-app-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 23, 
+    "name": "Private Blockchain Solutions",
+    "item": "https://www.perfectiongeeks.com/private-blockchain-solution-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 24, 
+    "name": "EOS BlockChain Development",
+    "item": "https://www.perfectiongeeks.com/eos-blockchain-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 25, 
+    "name": "R3 Corda Blockchain Development",
+    "item": "https://www.perfectiongeeks.com/r3-corda-blockchain-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 26, 
+    "name": "Ethereum Development",
+    "item": "https://www.perfectiongeeks.com/ethereum-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 27, 
+    "name": "Hedera Hashgraph Development",
+    "item": "https://www.perfectiongeeks.com/hedera-hashgraph-development-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 28, 
+    "name": "Strato Blockchain",
+    "item": "https://www.perfectiongeeks.com/strato-blockchain-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 29, 
+    "name": "Hyperledger Blockchain App",
+    "item": "https://www.perfectiongeeks.com/hyperledger-blockchain-app"  
+  },{
+    "@type": "ListItem", 
+    "position": 30, 
+    "name": "Enterprise Mobility Solution",
+    "item": "https://www.perfectiongeeks.com/enterprise-mobility-solutions-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 31, 
+    "name": "Strategic Consulting",
+    "item": "https://www.perfectiongeeks.com/strategic-consulting-services"  
+  },{
+    "@type": "ListItem", 
+    "position": 32, 
+    "name": "Technology",
+    "item": "https://www.perfectiongeeks.com/technology"  
+  },{
+    "@type": "ListItem", 
+    "position": 33, 
+    "name": "Portfolio",
+    "item": "https://www.perfectiongeeks.com/portfolio"  
+  },{
+    "@type": "ListItem", 
+    "position": 34, 
+    "name": "Blog",
+    "item": "https://www.perfectiongeeks.com/blog"  
+  },{
+    "@type": "ListItem", 
+    "position": 35, 
+    "name": "Contact",
+    "item": "https://www.perfectiongeeks.com/contact"  
+  }]
+}
+</script>
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153994183-1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-153994183-1');
+   </script>
+</head>
+
+<body>
+   <!-- Header Area -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container ">
+
+         <div class="col-md-12">
+            <div class="row laptop-menu">
+
+               <div class="col-md-2 col-lg-2 col-3 ps-0 pe-5 p-2">
+                  <a href="https://www.perfectiongeeks.com/"><img src="images/logo.svg" class="img-fluid"></a>
+               </div>
+
+               <div class="col-md-8 col-7 col-lg-7 text-center d-flex align-items-center justify-content-center">
+                  <ul class="navbar-nav    mb-2 mb-lg-0">
+                     <li class="nav-item dropdown mr-3">
+                        <a class="nav-link dropdown-toggle fs-14 color-dark" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                           About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item fs-14" href="https://www.perfectiongeeks.com/about">About
+                                 company</a></li>
+                           <li><a class="dropdown-item fs-14" href="https://www.perfectiongeeks.com/team">Our Team</a>
+                           </li>
+
+                        </ul>
+                     </li>
+
+
+                     <li class="nav-item dropdown mr-3">
+                        <a class="nav-link dropdown-toggle show-services fs-14 color-dark" href="#" id="navbarDropdown"
+                           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Services
+                        </a>
+
+                     </li>
+                     <li class="nav-item dropdown mr-3">
+                        <a class="nav-link dropdown-toggle fs-14 color-dark" href="#" id="navbarDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                           Blogs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item fs-14"
+                                 href="https://www.perfectiongeeks.com/technology">Technology</a>
+                           </li>
+                           <li><a class="dropdown-item fs-14" href="https://www.perfectiongeeks.com/blog">Our blogs</a>
+                           </li>
+
+
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link fs-14 color-dark mr-3"
+                           href="https://www.perfectiongeeks.com/portfolio">Portfolio</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link fs-14 color-dark mr-3"
+                           href="https://www.perfectiongeeks.com/contact">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+
+               <div class="col-md-2 col-lg-2 col-2 text-end d-flex align-items-center justify-content-end">
+                  <button class="blue-btn-A  fs-12 p-2 pl-3 pr-3"> <a class="text-white"
+                        href="https://calendly.com/perfectiongeeks">Free
+                        Consultation</a> </button>
+               </div>
+
+               <div class="col-md-1 col-lg-1 p-0  d-flex align-items-center justify-content-center">
+
+
+
+
+
+                  <div class="dropdown">
+                     <button class="btn flag-btn p-0 dropdown-toggle fs-14" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+
+                        <span class="ms-2"> Global</span>
+                     </button>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item fs-14 p-2" href="https://www.perfectiongeeks.com/sg/"> <img
+                                 src="images/singapore-flag.png" class="w-flag"><span class="ml-2">Singapore</span></a>
+                        </li>
+                        <li><a class="dropdown-item fs-14 p-2" href="https://www.perfectiongeeks.com/en-us/"> <img
+                                 src="images/usa-flag.png" class="w-flag"><span class="ml-2">USA</span></a></li>
+                     </ul>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="row mobile-view-menu d-flex justify-content-between d-flex align-items-center">
+               <a href="https://www.perfectiongeeks.com/"><img src="images/logo.svg" class="img-fluid"></a>
+               <i class="fa fa-bars show-mob-menu"></i>
+            </div>
+
+            <div class="  mobile-menu">
+               <div class="mobile-links p-3">
+                  <ul class="navbar-nav ms-lg-5 ms-0 me-auto mb-2 p-0 m-0 mt-5 mb-lg-0">
+                     <li class="text-end fs-4 pe-3 pt-3 close-menu"><i class="fa fa-times" aria-hidden="true"></i></li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link d-flex justify-content-between" href="#"
+                           data-bs-toggle="dropdown">
+                           About
+                        </a>
+                        <ul class="dropdown-menu pt-3 pb-3" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item fs-14" href="https://www.perfectiongeeks.com/about">About
+                                 company</a></li>
+                           <li><a class="dropdown-item fs-14" href="https://www.perfectiongeeks.com/team">Our Team</a>
+                           </li>
+
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link d-flex justify-content-between" href="#"
+                           id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Services
+                        </a>
+                        <ul class="dropdown-menu services-menu  p-0 " aria-labelledby="navbarDropdown">
+                           <div class="row  mobile-services-box pl-3 ">
+                              <div class="col-md-12 col-lg-3 p-2">
+                                 <li><a class="dropdown-item fw-bold mb-2 p-2 ps-3" href="#">Design</a></li>
+
+                                 <li><a class="dropdown-item p-2 ps-3" id="uxui-design"
+                                       href="https://www.perfectiongeeks.com/uxui-design-services">Ux
+                                       Ui Design</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="product-design"
+                                       href="https://www.perfectiongeeks.com/product-design-services">Product
+                                       Design</a>
+                                 </li>
+
+                                 <li><a class="dropdown-item p-2 ps-3" id="wireframe-design"
+                                       href="https://www.perfectiongeeks.com/wireframe-design-services">Wireframe
+                                       Design</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="mobile-ui-design"
+                                       href="https://www.perfectiongeeks.com/mobile-ui-design-services">Mobile
+                                       Ui
+                                       Design</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="website-design"
+                                       href="https://www.perfectiongeeks.com/web-design-services">Web Design
+                                       Services</a>
+                                 </li>
+
+                              </div>
+                              <div class="col-md-12 col-lg-3 p-2">
+                                 <li><a class="dropdown-item fw-bold mb-2 p-2 ps-3" href="#">Development</a></li>
+
+                                 <li><a class="dropdown-item p-2 ps-3" id="android-development"
+                                       href="https://www.perfectiongeeks.com/android-app-development-services">Android
+                                       Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="web-development"
+                                       href="https://www.perfectiongeeks.com/web-development-services">Web
+                                       Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="artificial-intelligence"
+                                       href="https://www.perfectiongeeks.com/artificial-intelligence-services">Artificial
+                                       Intelligence</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="augmented-reality"
+                                       href="https://www.perfectiongeeks.com/augmented-reality-services">Augumented
+                                       Reality</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="bot-development"
+                                       href="https://www.perfectiongeeks.com/bot-development-services">Bot
+                                       Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="cloud-computing"
+                                       href="https://www.perfectiongeeks.com/cloud-computing-services">Cloud
+                                       Computing</a>
+                                 </li>
+                                 <li class="  ">
+                                    <a class="dropdown-item p-2 ps-3" id="hedera-hashgraph-development"
+                                       href="https://www.perfectiongeeks.com/software-development-company">Software
+                                       Development</a>
+                                 </li>
+                                 <li class=" ">
+                                    <a class="dropdown-item p-2 ps-3" id="hedera-hashgraph-development"
+                                       href="https://www.perfectiongeeks.com/custom-software-development">Custom
+                                       Software
+                                       Development</a>
+                                 </li>
+
+
+                                 <li><a class="dropdown-item p-2 ps-3" id="dapp-development"
+                                       href="https://www.perfectiongeeks.com/dapp-development-services">Dapp
+                                       Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="iot-app-development"
+                                       href="https://www.perfectiongeeks.com/iot-app-development-services">IOT
+                                       App Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="ios-app-development"
+                                       href="https://www.perfectiongeeks.com/ios-app-development-services">IOS
+                                       App Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="wearable-app-development"
+                                       href="https://www.perfectiongeeks.com/wearable-app-development-services">Wearable
+                                       App Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="machine-learning"
+                                       href="https://www.perfectiongeeks.com/machine-learning-services">Machine
+                                       Learning</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="mlm-app-developement"
+                                       href="https://www.perfectiongeeks.com/MLM-app-developer">MLM
+                                       app developer</a></li>
+
+
+                              </div>
+                              <div class="col-md-12 col-lg-3 p-2">
+                                 <li><a class="dropdown-item fw-bold mb-2 p-2 ps-3" href="#">Blockchain</a></li>
+
+                                 <li><a class="dropdown-item p-2 ps-3" id="blockchain-solutions"
+                                       href="https://www.perfectiongeeks.com/blockchain-solutions-services">Blockchain
+                                       Solutions</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="blockchain-app-development"
+                                       href="https://www.perfectiongeeks.com/blockchain-app-development-services">Blockchain
+                                       App Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="eos-blockchain-development"
+                                       href="https://www.perfectiongeeks.com/eos-blockchain-development-services">EOS
+                                       Blockchain Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="ethereum-development"
+                                       href="https://www.perfectiongeeks.com/ethereum-development-services">Ethereum
+                                       Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="hedera-hashgraph-development"
+                                       href="https://www.perfectiongeeks.com/hedera-hashgraph-development-services">Hedera
+                                       Hashgraph Development</a>
+                                 </li>
+
+                                 <li><a class="dropdown-item p-2 ps-3" id="ipfs-blockchain-development"
+                                       href="https://www.perfectiongeeks.com/ipfs-blockchain-development-services">IPFS
+                                       Blockchain Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="private-blockchain-solution"
+                                       href="https://www.perfectiongeeks.com/private-blockchain-solution-services">Private
+                                       Blockchain Solutions</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="r3-corda-blockchain-development"
+                                       href="https://www.perfectiongeeks.com/r3-corda-blockchain-development-services">R3
+                                       Corda Blockchain Development</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="strato-blockchain"
+                                       href="https://www.perfectiongeeks.com/strato-blockchain-services">Strato
+                                       Blockchain</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="Hyperledger-blockchain-app"
+                                       href="https://www.perfectiongeeks.com/hyperledger-blockchain-app">Hyperledger
+                                       Blockchain App</a></li>
+
+
+                              </div>
+                              <div class="col-md-12 col-lg-3 p-2">
+                                 <li><a class="dropdown-item fw-bold mb-2 p-2 ps-3" href="#">Strategy</a></li>
+
+                                 <li><a class="dropdown-item p-2 ps-3" id="enterprise-mobility-solutions"
+                                       href="https://www.perfectiongeeks.com/enterprise-mobility-solutions-services">Enterprise
+                                       Mobility Solution</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="voice-technology"
+                                       href="https://www.perfectiongeeks.com/voice-technology-services">Voice
+                                       Technology</a>
+                                 </li>
+                                 <li><a class="dropdown-item p-2 ps-3" id="strategic-consulting"
+                                       href="https://www.perfectiongeeks.com/strategic-consulting-services">Strategic
+                                       Consulting</a>
+                                 </li>
+
+                              </div>
+                           </div>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link link" href="https://www.perfectiongeeks.com/technology">Technology</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link link" href="https://www.perfectiongeeks.com/portfolio">Portfolio</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link link" href="https://www.perfectiongeeks.com/blog">Blog</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link link" href="https://www.perfectiongeeks.com/contact">Contact</a>
+                     </li>
+                  </ul>
+
+                  <div class="menuA mt-3 mb-3">
+                     <a href="#0" class="cd-btn js-cd-panel-trigger" data-panel="main">Free Consultation </a>
+                  </div>
+
+
+               </div>
+
+
+            </div>
+
+
+         </div>
+
+
+      </div>
+   </nav>
+
+
+
+
+
+   <div class="toggle-services">
+      <h4 class=" close-toggle-services text-right mr-5 mt-3 "><i class="fa fa-times" aria-hidden="true"></i>
+      </h4>
+      <div class="container p-0  pt-3  pb-5">
+
+         <div class="row m-0 p-0">
+            <div class="col-md-3 col-lg-3 p-0 border-right">
+               <p class="text-blue fs-14 text-capitalize mb-1 fw-500">our services</p>
+               <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <button class="nav-link p-2 pt-3 pb-3 mb-2 active" id="v-pills-home-tab" data-bs-toggle="pill"
+                     data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                     aria-selected="true">
+                     <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                           d="M17.97 4.5325C18.36 4.1425 18.36 3.5125 17.97 3.1225L15.14 0.2925C14.75 -0.0975 14.12 -0.0975 13.73 0.2925L9.24 4.7825L5.35 0.8925C4.57 0.1125 3.3 0.1125 2.52 0.8925L0.62 2.7925C-0.16 3.5725 -0.16 4.8425 0.62 5.6225L4.51 9.5125L0 14.0225V18.2625H4.24L8.76 13.7425L12.65 17.6325C13.6 18.5825 14.88 18.2325 15.48 17.6325L17.38 15.7325C18.16 14.9525 18.16 13.6825 17.38 12.9025L13.49 9.0125L17.97 4.5325ZM2.04 4.2025L3.93 2.3025L5.2 3.5725L4.02 4.7625L5.43 6.1725L6.62 4.9825L7.82 6.1825L5.92 8.0825L2.04 4.2025ZM13.27 11.6425L12.08 12.8325L13.49 14.2425L14.68 13.0525L15.95 14.3225L14.05 16.2225L10.16 12.3325L12.06 10.4325L13.27 11.6425ZM3.41 16.2625H2V14.8525L11.61 5.2425L12.91 6.5425L13.02 6.6525L3.41 16.2625ZM13.02 3.8225L14.43 2.4125L15.84 3.8225L14.43 5.2325L13.02 3.8225Z">
+                        </path>
+                     </svg>
+                     <span class="ms-3 fw-bold">Development Services</span>
+                  </button>
+                  <button class="nav-link p-2 pt-3 pb-3 mb-2" id="v-pills-profile-tab" data-bs-toggle="pill"
+                     data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                     aria-selected="false">
+                     <svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                           d="M8.88 1.63333L3.36 7L8.88 12.3667L7.2 14L0 7L7.2 4.76837e-07L8.88 1.63333ZM15.12 1.63333L20.64 7L15.12 12.3667L16.8 14L24 7L16.8 4.76837e-07L15.12 1.63333V1.63333Z">
+                        </path>
+                     </svg>
+                     <span class="ms-3 fw-bold">Design Services</span>
+                  </button>
+                  <button class="nav-link p-2 pt-3 pb-3 mb-2" id="v-pills-messages-tab" data-bs-toggle="pill"
+                     data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                     aria-selected="false">
+                     <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                           d="M18.1363 0H12.9545C12.7255 0 12.5058 0.0910848 12.3439 0.253016C12.1818 0.414947 12.0909 0.634581 12.0909 0.863727V2.59089H6.9091V0.863727C6.9091 0.634566 6.81816 0.414947 6.65609 0.253016C6.49415 0.0910848 6.27452 0 6.04552 0H0.863727C0.634566 0 0.414947 0.0910848 0.253016 0.253016C0.0910848 0.414947 0 0.634581 0 0.863727V6.04552C0 6.27454 0.0910848 6.49415 0.253016 6.65608C0.414947 6.81816 0.634581 6.9091 0.863727 6.9091H2.59089V12.0909H0.863727C0.634566 12.0909 0.414947 12.1818 0.253016 12.3439C0.0910848 12.5058 0 12.7255 0 12.9545V18.1363C0 18.3654 0.0910848 18.585 0.253016 18.747C0.414947 18.9089 0.634581 19 0.863727 19H6.04552C6.27454 19 6.49415 18.9089 6.65609 18.747C6.81816 18.585 6.9091 18.3654 6.9091 18.1363V16.4091H12.0909V18.1364V18.1363C12.0909 18.3654 12.1818 18.5851 12.3439 18.747C12.5058 18.9089 12.7255 19 12.9545 19H18.1363C18.3654 19 18.585 18.9089 18.747 18.747C18.9089 18.5851 19 18.3654 19 18.1363V12.9545C19 12.7255 18.9089 12.5058 18.747 12.3439C18.585 12.1818 18.3654 12.0909 18.1363 12.0909H16.4091V6.9091H18.1364H18.1363C18.3654 6.9091 18.5851 6.81816 18.747 6.65609C18.9089 6.49416 19 6.27452 19 6.04553V0.863731C19 0.63457 18.9089 0.41495 18.747 0.253019C18.5851 0.0910883 18.3654 0 18.1363 0ZM1.72738 5.18179V1.72731H5.18186V5.18179H1.72738ZM5.18186 17.2728H1.72738V13.8183H5.18186V17.2728ZM12.091 12.9545V14.6818H6.90925V12.9545C6.90925 12.7255 6.81831 12.5059 6.65623 12.3439C6.4943 12.1818 6.27466 12.0909 6.04567 12.0909H4.31835V6.90911H6.04567C6.27468 6.90911 6.4943 6.81817 6.65623 6.6561C6.81831 6.49416 6.90925 6.27453 6.90925 6.04553V4.31822H12.091V6.04553C12.091 6.27455 12.182 6.49416 12.3441 6.6561C12.506 6.81817 12.7256 6.90911 12.9546 6.90911H14.6819V12.0909H12.9546C12.7256 12.0909 12.506 12.1818 12.3441 12.3439C12.182 12.5059 12.091 12.7255 12.091 12.9545ZM17.2728 13.8181V17.2725L13.8184 17.2727V13.8182L17.2728 13.8181ZM17.2728 5.18187H13.8184V1.72739H17.2728V5.18187Z">
+                        </path>
+                     </svg>
+                     <span class="ms-3 fw-bold">Blockchain Services</span>
+                  </button>
+                  <button class="nav-link p-2 pt-3 pb-3 mb-2" id="v-pills-settings-tab" data-bs-toggle="pill"
+                     data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                     aria-selected="false">
+                     <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                           d="M1.72531 15.5299C2.24796 15.8141 2.83752 15.9471 3.42988 15.9146C3.6971 15.9005 3.96154 15.8535 4.21746 15.7745C5.04578 15.5217 5.73984 14.9437 6.14477 14.1694L6.16815 14.1219C7.26713 14.1855 8.36859 14.0528 9.42227 13.7302C13.6658 12.4337 16.4767 8.06268 16.043 3.49203L16.5517 3.92183C16.8387 4.14857 17.2219 4.20703 17.5621 4.07602C17.9024 3.94502 18.1503 3.64359 18.2161 3.28087C18.2816 2.91832 18.1555 2.54731 17.8834 2.30237L15.4405 0.243838C15.2283 0.065133 14.9549 -0.0209928 14.6802 0.00434928C14.4054 0.0298551 14.1518 0.16467 13.9751 0.379152L11.9425 2.85091C11.766 3.06572 11.681 3.34266 11.706 3.62088C11.7311 3.89913 11.8642 4.15601 12.0761 4.33489C12.2882 4.51359 12.5617 4.59972 12.8364 4.57438C13.1111 4.54904 13.3646 4.41422 13.5414 4.19958L13.9774 3.67009C14.3478 7.26493 12.1605 10.6936 8.80529 11.7145C8.04564 11.9469 7.25395 12.0527 6.4608 12.0281C6.29709 11.1009 5.74891 10.2892 4.95509 9.79844C4.16127 9.30771 3.19785 9.18496 2.3087 9.4614C1.48218 9.71646 0.789421 10.2937 0.383028 11.0658C-0.0233654 11.8381 -0.110363 12.7422 0.141155 13.5794C0.392841 14.4167 0.96244 15.1182 1.72486 15.5302L1.72531 15.5299ZM2.21773 12.0561V12.0562C2.3659 11.7753 2.61939 11.5666 2.92112 11.4769C3.01254 11.4489 3.10691 11.4322 3.20241 11.427C3.54928 11.4093 3.88617 11.5483 4.122 11.8065C4.35782 12.0647 4.46854 12.4156 4.42406 12.7644C4.37974 13.1134 4.1848 13.4244 3.8919 13.6136C3.599 13.8027 3.23841 13.8506 2.90738 13.7444C2.57621 13.6381 2.30865 13.3885 2.17686 13.0631C2.04505 12.7376 2.06254 12.3697 2.22477 12.0586L2.21773 12.0561ZM4.452 5.46974L5.34525 4.56032L4.452 3.65568C4.20309 3.38804 4.11004 3.00825 4.2062 2.65383C4.30236 2.29923 4.574 2.02098 4.92299 1.91964C5.27197 1.81831 5.64777 1.90838 5.915 2.15748L6.79649 3.05978L7.68501 2.14802C7.87635 1.93752 8.14407 1.81479 8.4265 1.808C8.70893 1.80137 8.98206 1.91118 9.18285 2.11241C9.38364 2.31365 9.49521 2.58873 9.49178 2.87493C9.48834 3.16096 9.3701 3.43341 9.16437 3.62951L8.27585 4.54126L9.17614 5.44111V5.44127C9.41801 5.62246 9.57043 5.90088 9.59447 6.20463C9.61834 6.50838 9.51139 6.80768 9.30108 7.02544C9.09077 7.2434 8.79773 7.35834 8.49729 7.34095C8.19687 7.32356 7.91871 7.1755 7.7342 6.93468L6.83392 6.03484L5.9454 6.9466C5.68488 7.21673 5.30187 7.32571 4.94061 7.2323C4.57935 7.13889 4.29462 6.85732 4.19389 6.49378C4.09315 6.13024 4.19144 5.73988 4.45196 5.46975L4.452 5.46974ZM22.6641 11.5625C22.872 11.7563 22.9932 12.0273 22.9997 12.3135C23.0064 12.5995 22.898 12.8759 22.6993 13.0795C22.5006 13.2828 22.2288 13.3958 21.9464 13.3923C21.6638 13.3887 21.3949 13.2691 21.2011 13.0607L20.3033 12.1584L19.4123 13.0702C19.2182 13.2703 18.9531 13.3832 18.6763 13.3837C18.4005 13.3844 18.1359 13.2742 17.9403 13.0777C17.7446 12.8811 17.634 12.6138 17.6327 12.3347C17.6312 12.0556 17.7393 11.7873 17.933 11.5887L18.8215 10.677L17.9237 9.78407C17.6748 9.51642 17.5816 9.13663 17.6777 8.78221C17.774 8.42761 18.0457 8.14953 18.3947 8.04819C18.7435 7.94683 19.1195 8.03693 19.3865 8.28586L20.2868 9.18816L21.1753 8.27641H21.1755C21.369 8.07683 21.6331 7.96404 21.9093 7.96288C22.1847 7.96288 22.4488 8.07336 22.6439 8.27011C22.839 8.46687 22.9492 8.73388 22.9504 9.01278C22.9517 9.29169 22.8436 9.55965 22.6501 9.75808L21.7616 10.6698L22.6641 11.5625ZM14.5333 17.3585L13.6448 18.2703L14.5451 19.1701H14.5449C14.753 19.3641 14.874 19.635 14.8807 19.9211C14.8872 20.2071 14.7788 20.4837 14.5801 20.6871C14.3816 20.8904 14.1098 21.0034 13.8272 20.9999C13.5447 20.9964 13.2757 20.8767 13.0821 20.6683L12.1888 19.7685L11.2979 20.6803C11.1039 20.8803 10.8386 20.9933 10.5618 20.9936C10.2867 20.9931 10.0229 20.8823 9.8283 20.6854C9.63369 20.4886 9.52379 20.2216 9.52281 19.9431C9.52199 19.6645 9.62992 19.3968 9.82323 19.1986L10.7118 18.2868L9.80443 17.3822C9.55552 17.1145 9.46247 16.7349 9.55863 16.3803C9.65479 16.0257 9.92643 15.7476 10.2754 15.6463C10.6244 15.545 11.0002 15.635 11.2674 15.884L12.1677 16.7863L13.0562 15.8745C13.2497 15.675 13.514 15.5622 13.79 15.5612C14.0664 15.5598 14.3318 15.6698 14.5279 15.8667C14.7242 16.0638 14.8349 16.3318 14.8359 16.6115C14.837 16.8913 14.7281 17.1601 14.5333 17.3585L14.5333 17.3585Z">
+                        </path>
+                     </svg>
+                     <span class="ms-3 fw-bold">Strategy</span>
+                  </button>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+               <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                     aria-labelledby="v-pills-home-tab">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <ul>
+                              <li class="p-3 "><a class="" id="android-development"
+                                    href="https://www.perfectiongeeks.com/android-app-development-services">Android
+                                    Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="web-development"
+                                    href="https://www.perfectiongeeks.com/web-development-services">Web
+                                    Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="artificial-intelligence"
+                                    href="https://www.perfectiongeeks.com/artificial-intelligence-services">Artificial
+                                    Intelligence</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="augmented-reality"
+                                    href="https://www.perfectiongeeks.com/augmented-reality-services">Augumented
+                                    Reality</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="bot-development"
+                                    href="https://www.perfectiongeeks.com/bot-development-services">Bot
+                                    Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="cloud-computing"
+                                    href="https://www.perfectiongeeks.com/cloud-computing-services">Cloud
+                                    Computing</a>
+                              </li>
+                              <li class="p-3 ">
+                                 <a id="software-development"
+                                    href="https://www.perfectiongeeks.com/software-development-company">Software
+                                    Development</a>
+                              </li>
+                              <li class="p-3 ">
+                                 <a id="hedera-hashgraph-development"
+                                    href="https://www.perfectiongeeks.com/custom-software-development">Custom
+                                    Software Development</a>
+                              </li>
+
+
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <ul>
+                              <li class="p-3 "><a class="" id="dapp-development"
+                                    href="https://www.perfectiongeeks.com/dapp-development-services">Dapp
+                                    Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="iot-app-development"
+                                    href="https://www.perfectiongeeks.com/iot-app-development-services">IOT
+                                    App Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="ios-app-development"
+                                    href="https://www.perfectiongeeks.com/ios-app-development-services">IOS
+                                    App Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="wearable-app-development"
+                                    href="https://www.perfectiongeeks.com/wearable-app-development-services">Wearable
+                                    App Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="machine-learning"
+                                    href="https://www.perfectiongeeks.com/machine-learning-services">Machine
+                                    Learning</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="mlm-app-developement"
+                                    href="https://www.perfectiongeeks.com/MLM-app-developer">MLM
+                                    app developer</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                     <div class="row m-0 p-3">
+                        <div class="col-md-6 col-lg-6 p-0">
+                           <ul>
+                              <li class="p-3 "><a class="" id="uxui-design"
+                                    href="https://www.perfectiongeeks.com/uxui-design-services">Ux
+                                    Ui Design</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="product-design"
+                                    href="https://www.perfectiongeeks.com/product-design-services">Product
+                                    Design</a>
+                              </li>
+                              <!--  <li class="p-3 "><a class="" id="website-design" href="website-design-services.html">Website Design</a></li> -->
+                              <li class="p-3 "><a class="" id="wireframe-design"
+                                    href="https://www.perfectiongeeks.com/wireframe-design-services">Wireframe
+                                    Design</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="mobile-ui-design"
+                                    href="https://www.perfectiongeeks.com/mobile-ui-design-services">Mobile
+                                    Ui
+                                    Design</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="website-design"
+                                    href="https://www.perfectiongeeks.com/web-design-services">Web
+                                    Design
+                                    Services</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                     aria-labelledby="v-pills-messages-tab">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <ul>
+                              <li class="p-3 "><a class="" id="blockchain-solutions"
+                                    href="https://www.perfectiongeeks.com/blockchain-solutions-services">Blockchain
+                                    Solutions</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="blockchain-app-development"
+                                    href="https://www.perfectiongeeks.com/blockchain-app-development-services">Blockchain
+                                    App Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="eos-blockchain-development"
+                                    href="https://www.perfectiongeeks.com/eos-blockchain-development-services">EOS
+                                    Blockchain Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="ethereum-development"
+                                    href="https://www.perfectiongeeks.com/ethereum-development-services">Ethereum
+                                    Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="hedera-hashgraph-development"
+                                    href="https://www.perfectiongeeks.com/hedera-hashgraph-development-services">Hedera
+                                    Hashgraph Development</a>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="col-md-6">
+                           <ul>
+                              <li class="p-3 "><a class="" id="ipfs-blockchain-development"
+                                    href="https://www.perfectiongeeks.com/ipfs-blockchain-development-services">IPFS
+                                    Blockchain Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="private-blockchain-solution"
+                                    href="https://www.perfectiongeeks.com/private-blockchain-solution-services">Private
+                                    Blockchain Solutions</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="r3-corda-blockchain-development"
+                                    href="https://www.perfectiongeeks.com/r3-corda-blockchain-development-services">R3
+                                    Corda Blockchain Development</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="strato-blockchain"
+                                    href="https://www.perfectiongeeks.com/strato-blockchain-services">Strato
+                                    Blockchain</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="Hyperledger-blockchain-app"
+                                    href="https://www.perfectiongeeks.com/hyperledger-blockchain-app">Hyperledger
+                                    Blockchain App</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                     aria-labelledby="v-pills-settings-tab">
+                     <div class="row m-0 p-3">
+                        <div class="col-md-6 col-lg-6 p-0">
+                           <ul>
+                              <li class="p-3 "><a class="" id="enterprise-mobility-solutions"
+                                    href="https://www.perfectiongeeks.com/enterprise-mobility-solutions-services">Enterprise
+                                    Mobility Solution</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="voice-technology"
+                                    href="https://www.perfectiongeeks.com/voice-technology-services">Voice
+                                    Technology</a>
+                              </li>
+                              <li class="p-3 "><a class="" id="strategic-consulting"
+                                    href="https://www.perfectiongeeks.com/strategic-consulting-services">Strategic
+                                    Consulting</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+               <div class="menu-img">
+                  <img loading="lazy" id="menu-img-ui-ux-design" src="images/menu/ui-ux-design.jpg"
+                     alt="ui ux design in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-product-design" src="images/menu/product-design.jpg"
+                     alt=" product design in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-web-design" src="images/menu/web-design.jpg"
+                     alt="web design in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-wireframe-design" src="images/menu/wireframe-design.jpg"
+                     alt="wireframe design in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-mobile-ui-design" src="images/menu/mobile-ui-design.jpg"
+                     alt="mobile ui design in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-android-development" src="images/menu/android-development.jpg"
+                     alt="android development in UK perfectiongeeks" style="display: block;">
+                  <img loading="lazy" id="menu-img-web-development" src="images/menu/web-development.jpg"
+                     alt="web-development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-artificial-intelligence"
+                     src="images/menu/artificial-intelligence.jpg" alt="artificial intelligence in UK perfectiongeeks"
+                     style="display: none;">
+                  <img loading="lazy" id="menu-img-augmented-reality" src="images/menu/augmented-reality.jpg"
+                     alt="augmented reality in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-bot-development" src="images/menu/bot-development.jpg"
+                     alt="augmented reality in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-cloud-computing" src="images/menu/cloud-computing.jpg"
+                     alt="cloud computing in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-software-development" src="images/menu/software-development.jpg"
+                     alt="cloud computing in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-dapp-development" src="images/menu/dapp-development.jpg"
+                     alt="dapp development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-iot-app-development" src="images/menu/iot-app-development.jpg"
+                     alt="iot app development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-ios-app-development" src="images/menu/ios-app-development.jpg"
+                     alt="ios app development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-wearable-app-development"
+                     src="images/menu/wearable-app-development.jpg" alt="wearable app development in UK perfectiongeeks"
+                     style="display: none;">
+                  <img loading="lazy" id="menu-img-machine-learning" src="images/menu/machine-learning.jpg"
+                     alt="machine learning in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-blockchain-app-development"
+                     src="images/menu/blockchain-app-development.jpg"
+                     alt="blockchain app development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-eos-blockchain-development"
+                     src="images/menu/eos-blockchain-development.jpg"
+                     alt="eos blockchain development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-ethereum-development" src="images/menu/ethereum-development.jpg"
+                     alt="eos ethereum development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-hedera-hashgraph-development"
+                     src="images/menu/hedera-hashgraph-development.jpg"
+                     alt="hedera hashgraph development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-mlm-app-developement" src="images/menu/MLM-app-developer.jpg"
+                     alt="hedera hashgraph development in UK perfectiongeeks" style="display: none;">
+
+
+                  <img loading="lazy" id="menu-img-ipfs-blockchain-development"
+                     src="images/menu/ipfs-blockchain-development.jpg"
+                     alt="ipfs blockchain development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-private-blockchain-solution"
+                     src="images/menu/private-blockchain-solution.jpg"
+                     alt="private blockchain solution in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-r3-corda-blockchain-development"
+                     src="images/menu/r3-corda-blockchain-development.jpg"
+                     alt="r3 corda blockchain development in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-strato-blockchain" src="images/menu/strato-blockchain.jpg"
+                     alt="eos strato blockchain in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-enterprise-mobility-solutions"
+                     src="images/menu/enterprise-mobility-solutions.jpg"
+                     alt="enterprise mobility solutions in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-voice-technology" src="images/menu/voice-technology.jpg"
+                     alt="voice technology in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-strategic-consulting" src="images/menu/strategic-consulting.jpg"
+                     alt="strategic consulting in UK perfectiongeeks" style="display: none;">
+                  <img loading="lazy" id="menu-img-slider1" src="images/menu/slider1.jpg"
+                     alt="slider1 in UK perfectiongeeks" class="menu-last-images" style="display: none;">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <section class="bg-grey pt-2 pb-2 header-sec-mob">
+      <div class="container">
+         <div class="row m-0 p-0 align-items-center">
+            <div class="col-md-6 col-lg-6 col-6 p-0">
+               <div class="logo-mob">
+                  <a href="#">
+                     <svg id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.53 189.9">
+                        <defs>
+                           <style>
+                           </style>
+                        </defs>
+
+                        <g>
+                           <line class="cls-1" x1="8" y1="60.8" x2="8" y2="189.9"></line>
+                           <path class="cls-1"
+                              d="M57.15,111.1h158.5a20.27,20.27,0,0,0,11.4-3.6c12.1-7.9,35.7-31.4,4.3-76.4"
+                              transform="translate(-51.45 -20.5)"></path>
+                        </g>
+                        <circle id="circle-1" class="cls-2" cx="50.9" cy="30.8" r="23.8"></circle>
+                        <circle id="circle-2" class="cls-2" cx="123.7" cy="30.8" r="23.8"></circle>
+                        <rect id="ears-1" class="cls-3" x="16.1" y="19.6" width="11" height="10.6"></rect>
+                        <circle id="eye-2" class="cls-3" cx="50.9" cy="30.2" r="8.5"></circle>
+                        <circle id="eye-1" class="cls-3" cx="123.8" cy="32.2" r="8.5"></circle>
+                        <path id="line" class="cls-4" d="M118.15,37.6s22.2-3.4,40.3,1.4"
+                           transform="translate(-51.45 -20.5)">
+                        </path>
+                        <rect id="ears-2" class="cls-3" x="148.1" y="19.6" width="11" height="10.6"></rect>
+                     </svg>
+                  </a>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-6 d-flex align-items-center justify-content-end">
+               <div class="d-flex justify-content-end">
+                  <div class="toggle-menu-mob text-orange ms-3">
+                     <i class="fa fa-bars"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!--===================================
+    =======SLIDING CONTENT RIGHT=========
+    =======================================-->
+
+
+   <div class="cd-panel cd-panel--from-right js-cd-panel-main">
+      <header class="cd-panel__header">
+         <a href="#0" class="cd-panel__close js-cd-close">Close</a>
+      </header>
+      <div class="cd-panel__container">
+         <div class="cd-panel__content">
+            <div class="p-4">
+               <h3 class="fw-bold fs-2">Request a quote</h3>
+               <p class="mb-2">Get an estimated costing for your digital App or idea you want to get develop. Kindly
+                  provide few information on your requirement.</p>
+               <span style="color: red; font-size: 11px;" class="fw-bold">*MANDATORY FIELDS</span>
+            </div>
+            <hr>
+            <form id="myform" name="form1">
+               <div class="p-4">
+                  <label class="fw-bold">What are you looking for? <span style="color: red;">*</span></label>
+                  <div class="form-group">
+                     <div class="row">
+                        <div class="col-md-6 col-lg-6 pt-3 cust">
+                           <input type="checkbox" class="me-2" name="Website" id="website" value="Website" /> Website
+                        </div>
+                        <div class="col-md-6 col-lg-6 t-3 cust">
+                           <input type="checkbox" class="me-2" name="Android" id="Android" value="Android" /> Android
+                        </div>
+                        <div class="col-md-6 col-lg-6 pt-3 cust">
+                           <input type="checkbox" class="me-2" name="iOS" id="iOS" value="iOS" /> iOS
+                        </div>
+                        <div class="col-md-6 col-lg-6 pt-3 cust">
+                           <input type="checkbox" class="me-2" name="DigitalMarketing" id="digital"
+                              value="DigitalMarketing" />
+                           Digital Marketing
+                        </div>
+                        <div class="col-md-6 col-lg-6 pt-3 cust">
+                           <input type="checkbox" class="me-2" name="UI/UX Design" id="design" value="UI/UX Design" />
+                           UI/UX Design
+                        </div>
+                        <div class="col-md-6 col-lg-6 pt-3 cust">
+                           <input type="checkbox" class="me-2" name="NotSure" id="notsure" value="Not Sure" /> Not
+                           Sure
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="p-4">
+                  <label class="fw-bold">What are the objectives, requirements and functionalities of this product?
+                     <span style="color: red;">*</span></label>
+                  <div class="mt-4 slide-msg">
+                     <textarea class="p-3" id="comment" name="comment"
+                        placeholder="Let’s know your need, we can suggest you with the best findings after depth analysis.  Business analysis is very important to make sure a quality product and we ensure it effectively. "></textarea>
+                  </div>
+               </div>
+               <div class="p-4 slide-msg">
+                  <label class="fw-bold">What’s your budget? <span style="color: red;">*</span></label>
+                  <div class="form-group">
+                     <input type="number" class="mt-3 p-3" id="budget" name="budget"
+                        placeholder="How much do you want to pay?">
+                  </div>
+               </div>
+               <div class="p-4 slide-msg">
+                  <label class="fw-bold">Expected launch date </label>
+                  <div class="form-group">
+                     <input type="date" class="mt-3 p-3" id="launch" name="launch"
+                        placeholder="How much do you want to pay?">
+                  </div>
+               </div>
+               <div class="p-4 slide-msg">
+                  <label class="fw-bold">Get in touch with us</label>
+                  <div class="form-group">
+                     <input type="text" class="mt-3 p-3" id="client_name" name="name" placeholder="Your name*">
+                     <input type="email" class="mt-3 p-3" id="email" name="email" placeholder="Email Address*">
+                     <input type="text" class="mt-3 p-3" id="country" name="country" placeholder="Country Name*">
+                     <input type="tel" class="mt-3 p-3" id="phone" name="phone" placeholder="Phone No.*">
+                     <input type="tel" class="mt-3 p-3" id="whatsapp" name="whatsapp" placeholder="Whatsapp No.">
+                     <input type="text" class="mt-3 p-3" id="skype" name="skype" placeholder="Skype Email/Username">
+                  </div>
+               </div>
+               <div class="p-4">
+                  <label class="fw-bold">What made you know about us? <span style="color: red;">*</span></label>
+                  <div class="form-group">
+                     <div class="row">
+                        <div class="col-md-6 col-lg-6 pt-3 cust">
+                           <input type="radio" id="about" name="about" value="Google/Bing/Others ">
+                           <label for="html">Google/Bing/Others </label><br>
+                           <input type="radio" id="about " name="about" value="Social Platform ">
+                           <label for="css">Social Platform</label><br>
+                           <input type="radio" id="about" name="about" value="Rerfrence ">
+                           <label for="javascript">Rerfrence</label>
+                        </div>
+                        <div class="col-md-6 col-lg-6 pt-3 cust">
+                           <input type="radio" id="about" name="about" value="Ads ">
+                           <label for="javascript">Ads</label> <br>
+                           <input type="radio" id="about" name="about" value="Other ">
+                           <label for="javascript">Other</label>
+                        </div>
+
+                     </div>
+
+                  </div>
+               </div>
+            </form>
+            <button onclick="validateformside(this.form)" class="btn header-btn mt-4" style="width: 100%;">Submit
+            </button>
+         </div>
+      </div>
+   </div>
+   <!-- Header Area -->
+   <!-- Banner Area -->
+   <section class="pages_banner blog-page-banner">
+      <div class="container">
+         <div aria-label="breadcrumb">
+            <ol class="breadcrumb">
+               <li class="breadcrumb-item">
+                  <a href="https://www.perfectiongeeks.com">Home</a>
+               </li>
+               <li class="breadcrumb-item  ">
+                  <a href="https://www.perfectiongeeks.com/technology">Technology</a>
+               </li>
+               <li class="breadcrumb-item active"><a href="#">priority for your server</a></li>
+            </ol>
+         </div>
+      </div>
+   </section>
+   <!-- End Banner Area -->
+   <!-- Blog Single Area -->
+   <section class="d-flex justify-content-center covid-page  technology-page-content ">
+      <div class="col-lg-9 col-md-12">
+         <p class="info-covid">priority for your server</p>
+         <h1 class="covid-heading font-weight-bold">
+            Security which should be a priority for your server?
+         </h1>
+      </div>
+   </section>
+   <div class="main-img-box-technology server mt-5"></div>
+   <section class="d-flex justify-content-center covid-page technology-page-content  bg-grey  ">
+      <div class="col-lg-8 p-3 p-lg-5 col-md-12 content-box">
+         <p class="  body-text">On the one side where the technology is devoting a hardcore efforts to make human
+            lives
+            worry-free by keeping their heavy datastore on the cloud server for lifelong in a well-managed way.
+            While
+            just opposite to it here is a big concern that is the data is completely secured on the webserver?
+            Well
+            truly said, No, until you haven’t implemented the security features in it. So let’s come and
+            elaborate,
+            for
+            what security options you need to go ahead to prevent your server stored data, from web attackers.
+            Before
+            that, you must have to know that what are the major and common mistakes, that allows the web attackers
+            to
+            snatch the server.</p>
+         <h3 class="mt-5 technology-heading">Common Web Security Mistake and the way to prevent it:</h3>
+         <img class="mt-5 mb-3"
+            src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/blog/web-server-security.jpg"
+            alt="web server security in Uk PerfectionGeeks" width="100%">
+
+         <h4 class="mt-5  ">1. Injection flaws</h4>
+
+         <p class="body-text">
+            The classic failure in the filtration of unfaithful data results in injection flow. This failure
+            generally
+            occurs when a user injects an unfiltered or unoperated data on the SQL server to the browser and LDAP
+            server
+            The SQL server is also referred to SQL injection. With this security fault, the web attackers and
+            hackers
+            can easily inject and run the harmful commands within the server and as a consequence to this we have
+            a
+            suffer from the huge data loss and the hacking of clients browser.
+         </p>
+         <p class="body-text">
+            <span class="font-weight-bold">Security</span>: Fortunately ensuring against injection flaw is just a
+            proper
+            filtration of the data that you are going to insert or upload on the server, and the best way for this
+            is
+            to
+            use a well-trusted data storage server like SQL.
+         </p>
+         <p class="body-text">
+            Since data filtration is quite difficult to do right, what I generally exhort is to depend on your
+            system's
+            sifting capacities: they are demonstrated to work and are completely examined. If you don't utilize
+            systems,
+            you truly need to contemplate whether not utilizing them truly make sense in your server security
+            setting.
+            99% of the time it doesn't.
+         </p>
+
+         <h4 class="mt-3 mb-3">2. Broken Authentication</h4>
+         <p class="body-text">This is an assortment of numerous issues that may happen during broken confirmation,
+            however, they don't all come from a similar main driver. </p>
+         <p class="body-text">
+            Expecting that anybody actually needs to roll their own confirmation code in earlier, it is very
+            difficult
+            to get right, there are a bunch of potential entanglements, just to specify a few:
+         </p>
+         <ol>
+            <li>
+               <p class="body-text"> The URL may contain the session id and hole it in the referer header to
+                  another
+                  person. </p>
+            </li>
+            <li>
+               <p class="body-text"> The passwords probably won't be scrambled either away or travel. </p>
+            </li>
+            <li>
+               <p class="body-text"> The session ids may be unsurprising, accordingly getting entrance is
+                  insignificant
+               </p>
+            </li>
+            <li>
+               <p class="body-text"> Session obsession may be conceivable. </p>
+            </li>
+            <li>
+               <p class="body-text"> Session hacking may be conceivable, timeouts not actualized right or
+                  utilizing
+                  HTTP
+                  (no SSL security), and so on… </p>
+            </li>
+         </ol>
+
+         <p class="body-text">
+            <span class="font-weight-bold">Security :</span> The most direct approach to ignore this web security
+            weakness is to utilize a system. You may have the option to execute this effectively, yet prior it was
+            easy.
+            In the event that you would like to roll your own code, be very suspicious and instruct yourself on
+            what
+            the
+            traps are. There are many.
+         </p>
+         <h4 class="mt-4 mb-3">3. Cross-Site Scripting (XSS)</h4>
+         <p class="body-text">This is genuinely far and wide data security failure. A web attacker gives your web
+            application JavaScript labels on the information. At the point when this information is gotten back to
+            the
+            client unsafely, the client's browser will execute it. It tends to be as straightforward as making a
+            connection and convincing a client to click it, or it may be very significantly eviler. On page load
+            the
+            content runs and, for instance, can be utilized to post your browser cookies to the web attacker.</p>
+         <p class="body-text"><span class="font-weight-bold">Security:</span> This is a basic web security
+            arrangement
+            to do not restore HTML labels to the customer. This has the additional advantage of guarding against
+            HTML
+            infusion, a comparable attack whereby the hackers insert plain HTML content. Generally, the workaround
+            is
+            just changing overall HTML elements, The other frequently utilized technique for server safety is
+            utilizing
+            ordinary articulations to strip away HTML tags using standard expressions on < and> tags, however,
+               this
+               is
+               risky as many programs will interpret severely broken HTML tags. Better to change all characters
+               over
+               to
+               their escaped partners.</p>
+
+
+
+         <h4 class="mt-3 mb-3">4. Security misconfiguration </h4>
+         <p class="body-text">
+            Web servers and applications that have been misconfigured are much more normal than those that have
+            been
+            designed appropriately. Maybe is no deficiency of approaches to mess up. As like the mentioned
+            instances:
+         </p>
+         <ol>
+            <li>
+               <p class="body-text"> Running the application with debugging empowered production. </p>
+            </li>
+            <li>
+               <p class="body-text"> Having registry listing empowered on the server, which releases important
+                  data.
+               </p>
+            </li>
+            <li>
+               <p class="body-text"> Running outdated or older version software/frameworks.</p>
+            </li>
+            <li>
+               <p class="body-text"> Having unuseful services running on the machine. </p>
+            </li>
+            <li>
+               <p class="body-text"> Not changing default keys and passwords. </p>
+            </li>
+            <li>
+               <p class="body-text"> Revealing bug fixing with data to the hackers, for example, stack follows.
+               </p>
+            </li>
+         </ol>
+
+         <p class="body-text"><span class="font-weight-bold">Security:</span> Have a fine development and
+            deployment
+            process, which can run tests on send. The helpless security misconfiguration solution is post-commit
+            snares,
+            to keep the code from going out with default passwords and additionally, development stuff worked in.
+         </p>
+
+
+         <h4 class="mt-4 mb-3">5. Sensitive data exposure</h4>
+         <p class="body-text">
+            This web security fault is about crypto and asset assurance. Delicate data should be scrambled
+            consistently,
+            remembering for transaction at rest. Credit card data and client passwords ought to never travel or be
+            put
+            away decoded, and passwords ought to consistently be hashed. Clearly, the crypto/hashing calculation
+            should
+            not be a frail one – if all else fails, web security guidelines suggest AES (256 pieces and up) and
+            RSA
+            (2048 pieces and up).
+         </p>
+
+         <p class="body-text">
+            Keeping in mind that it's implied that session IDs and crucial data ought not to transfer in the URLs
+            and
+            cookies ought to have the protected banner on, this is significant and can't be over-underscored.
+         </p>
+         <p class="body-text font-weight-bold">Security: </p>
+         <ul>
+            <li>
+               <p class="body-text"> <span class="font-weight-bold"> In Data transfer:</span> Use HTTPS with a
+                  legitimate testament and PFS (Perfect Forward Secrecy). Try not to acknowledge anything over
+                  non-HTTPS
+                  associations. Have the protected banner on treats. </p>
+            </li>
+
+            <li>
+               <p class="body-text"> <span class="font-weight-bold"> In data storage : </span>This is harder. Most
+                  importantly, you need to bring down your openness. In case of no need for sensitive information,
+                  shred
+                  it. Information you don't have can't be taken. Try not to store crucial data ever, as you likely
+                  would
+                  prefer not to need to manage being PCI consistent. Join with an instalment processor, for
+                  example,
+                  Stripe or Braintree. Second, in the event that you have crucial data that you really need, store
+                  it
+                  scrambled and ensure all passwords are hashed. For hashing, utilization of bcrypt is suggested.
+                  If
+                  you
+                  don't like to use bcrypt, instruct yourself on salting and rainbow tables.</p>
+            </li>
+         </ul>
+         <p class="body-text">Above we learnt everything about server security, meanwhile whenever a server gets
+            harm
+            by
+            the web attackers, it directly affects the website’s security. So, after knowing the reasons and
+            solution
+            to
+            secure the server, we also need to understand the ways to improve the website security on the server.
+         </p>
+
+         <h3 class="mt-5 technology-heading">Top 5 Ways to Improve Your Websites Safety</h3>
+         <img class="mt-5 mb-3" src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/blog/website-security.jpg"
+            alt="website security services in singapoore PerfectionGeeks" width="100%">
+
+
+
+
+         <h4 class="mt-4 mb-3">1. Always use updated software and plug-ins</h4>
+         <p class="body-text">
+            Every day thousands of websites are uploaded on the server and from all of them, countless websites
+            ate
+            getting harm and hacked by the web attackers, which is the major concerning issue these days. Thus, to
+            keep
+            safe and secure your web portal on the cloud server, always prefer to use the latest version of
+            software
+            and
+            plugin also make them updated time to time whenever the new version of the updated version of the
+            specific
+            software or plugin gets a release. This will reduce the hacking risk of a website.
+         </p>
+         <h4 class="mt-4 mb-3">2. Add HTTPS and an SSL Certificate</h4>
+         <p class="body-text">
+            To protect your site, you need a safe URL. If you are long to send and share private data through your
+            website, you must implement HTTPS, instead of HTTP, to convey that data securely.
+         </p>
+         <p class="font-weight-bold">What is HTTPS? </p>
+         <p class="body-text">
+            HTTPS (Hypertext Transfer Protocol Secure) is a convention used to give security over the Internet.
+            HTTPS
+            keeps capture attempts and breaks from happening while transferring the data.
+         </p>
+
+         <p class="body-text">
+            Additionally, to create a well-secured online association, your site likewise needs an SSL
+            Certificate.
+            If
+            you want your visitors to make registration on your website first before to access or to transfer ant
+            crucial data or information always make sure to encrypt your connection.
+         </p>
+         <p class="font-weight-bold">What is SSL?</p>
+
+         <p class="body-text">
+            SSL (Secure Sockets Layer) is another fundamental site convention. This exchanges clients data between
+            the
+            site and your database. SSL encodes data to keep it safe from others while data exchanging or
+            transferring
+            process
+         </p>
+         <p class="body-text">
+            It denies those without legitimate position the capacity to get and access the data also. GlobalSign
+            is
+            the
+            best instance of an SSL endorsement that works with most sites.
+         </p>
+         <h4 class="mt-3 mb-3">3. Create Password Wisely</h4>
+         <p class="body-text">
+            Passwords are the another that the web attackers can easily crack, there while making a password for
+            your
+            website, try to avoid the common password norms, instead of that must choose a multi-character
+            integrated
+            password, as such strong sense passwords are tough to crack.
+         </p>
+         <p class="body-text">
+            Also, a crowd of individuals are loving to use the same password for each portal they are using, while
+            it’s
+            not good for the data safety purpose. So always create and use a new password for every different
+            website,
+            it can be difficult for the attackers to guess the password.
+         </p>
+         <p class="body-text">
+            Apart from that, a frequent change in the secret code/password in the duration of each three to four
+            months
+            also help you to prevent the site from web attack.
+         </p>
+
+         <h4 class="mt-3 mb-3">4. Use a Secure Web Host</h4>
+         <img class="mt-5 mb-3"
+            src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/blog/website-security-solutions.jpg"
+            alt="Best website-security-solutions in UK perfectiongeeks" width="100%">
+         <p class="body-text">
+            Think about your site's domain name, address. and, think about the web host where your website exists
+            on
+            the
+            server.
+         </p>
+         <p class="body-text">
+            Prior to proceeding the specific web host, in addition, to upload your site on its server must check
+            the
+            reliability of that host. As Numerous hosts give server security features that better ensure your
+            uploaded
+            data. There are many things to check for while picking a host such as:
+         </p>
+         <ol>
+            <li>
+               <p> Does the web have to offer a Secure File Transfer Protocol (SFTP)? SFTP. </p>
+            </li>
+            <li>
+               <p> Is FTP Use by Unknown User crippled? </p>
+            </li>
+            <li>
+               <p> Does it utilize a Rootkit Scanner? </p>
+            </li>
+            <li>
+               <p> Does it offer record reinforcement administrations (Data backup)? </p>
+            </li>
+            <li>
+               <p> How well do they stay up with the latest on security updates and trends? </p>
+            </li>
+         </ol>
+
+         <p class="body-text">
+            Though you pick SiteGround or WP Engine as your web host, ensure it has all the things that a website
+            need
+            to keep itself from web attackers though it’s a web-generated virus or a web attack by ant expert web
+            hacker.
+         </p>
+         <h4 class="mt-4 mb-3">5. Record the user activity</h4>
+         <p class="body-text">
+            At first, you may feel good giving a few elevated level representatives admittance to your site. You
+            give
+            each authoritative advantages figuring they will utilize their site cautiously. Whether this is the
+            ideal
+            circumstance, it isn't generally the situation.
+         </p>
+         <p class="body-text">
+            Unluckily, representatives don't consider site security when signing into the CMS, besides they only
+            always
+            think to complete the task as soon, which is definitely a harmful act for the health and security of
+            the
+            web
+            portal. Instead of doing anything in hurry or unsafe way, go ahead with a safe zone will be a better
+            choice
+            for you in that you just need to track each activity of the website visitor within the site. In the
+            sum
+            of
+            this, it is essential to vet your representatives prior to giving them site access. See whether they
+            have
+            experience utilizing your CMS and if they realize what to search for to maintain a strategic distance
+            from a
+            security penetrate.
+         </p>
+         <p class="body-text">
+            Instruct each CMS client about the significance of passwords and programming refreshes. Reveal to them
+            all
+            the manners in which they can help keep up the site's security.
+         </p>
+         <p class="body-text">
+            To monitor who approaches your CMS and their authoritative settings, make a record and update it
+            regularly.
+         </p>
+         <p class="body-text">
+            Representatives go back and forth. Probably the most ideal approaches to forestall security issues is
+            to
+            have an actual record of who does what with your site.
+         </p>
+         <p class="body-text">
+            Be reasonable with regards to client access.
+         </p>
+         <h4 class="mt-4 mb-3">6. Change Your CMS Default Settings</h4>
+         <img class="mt-5 mb-3"
+            src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/blog/web-server-security-solutions.jpg"
+            alt="website-security-solutions in singapoore PerfectionGeeks" width="100%">
+         <p class="body-text">The most well-known security attack on websites is fully automated. What many
+            assault
+            bots
+            depend on is for clients to have their CMS settings on default. </p>
+         <p class="body-text">As when these default attacks see a website with default CMS setting they attack and
+            hack
+            the site immediately. Therefore to prevent CSM site from such attacks, make sure to change the default
+            setting of your CMS. </p>
+         <p class="body-text">CMS settings can incorporate changing control remarks/comments, visibility, and
+            authorizations. </p>
+         <p class="body-text">As the best instance to this, you must change the file permission default settings,
+            and
+            allow file access only to the particular individuals who are related to it. </p>
+         <p class="body-text">Each file has three consents and a number that speaks to each authorization as Read
+            –
+            the
+            one can only view the file content, Write – They can change the file content, and Execute- the one who
+            can
+            run the file content. </p>
+         <p class="body-text font-weight-bold mt-5">Alongside the default consent settings, there are three client
+            types: </p>
+         <p class="body-text"><span class="font-weight-bold">1. Owner –</span> the maker of the document, however,
+            possession can be changed. Just a single client can be the proprietor at a time. </p>
+         <p class="body-text"><span class="font-weight-bold">2. Group –</span> Each record is allotted to a group.
+            Clients who are important for that particular group will access the file data. </p>
+         <p class="body-text"><span class="font-weight-bold">3. Public –</span> Everyone else. </p>
+         <p class="body-text"> Customize clients and their consent settings from time to time. Try not to keep the
+            default settings with no groups, or you will run into site security issues eventually. </p>
+
+
+
+
+
+
+
+
+
+         <h4 class="mt-5 mb-3">7. Backup Your Website</h4>
+         <p class="body-text">
+            Perhaps the best strategy to prevent your site is to have a decent backup solution. There are a few
+            backup
+            solutions available, that you can use to help recuperate harmed or lost documents.
+         </p>
+         <p class="body-text">
+            Keep your site data off-site. Try not to store your back up on a similar server as your site; they are
+            as
+            helpless against assaults as well.
+         </p>
+         <p class="body-text">
+            Decide to keep your site data on a home PC or hard drive. Locate an off-site spot to store your data
+            and
+            to
+            shield it from equipment disappointments, hacks, and infections.
+         </p>
+
+         <p class="body-text">
+            Another choice is to back up your site in the cloud. It makes putting away data simple and permits
+            admittance to data from anyplace.
+         </p>
+         <p class="body-text">
+            Instead of picking where to back up your site data, you should consider to automate them. Utilize a
+            solution
+            where you can plan your site back up. You additionally need to guarantee your solution has a solid
+            recuperation framework.
+         </p>
+         <p class="body-text">
+            Along with this, also create a back up of your back up, in this way you will feel more secure for your
+            data
+            and of course by doing this you can easily recover your data from any point before the hack or
+            infection
+            happens.
+         </p>
+         <h4 class="mt-5 mb-3">8. Check Web Server Configuration Files</h4>
+         <p class="body-text">
+            Become acquainted with your web server internal configuration. You can discover them in the root web
+            index.
+            The web server allows you to oversee server rules. This incorporates orders to improve site security.
+         </p>
+         <p class="font-weight-bold mt-5">There are distinctive file types uses with each server. Find out about
+            the
+            one
+            you use. </p>
+         <ol>
+            <li>
+               <p> Apache webserver utilize the .htaccess file </p>
+            </li>
+            <li>
+               <p> Nginx server uses Nginx.conf </p>
+            </li>
+            <li>
+               <p> Microsoft IIS server use the web.config </p>
+            </li>
+         </ol>
+         <p class="body-text">
+            Only one out of every odd website admin realizes which web server they use. In the event that you are
+            one
+            of
+            them, uses a site scanner like Site check to check your site. It filters for known malware, virus,
+            blacklisting status, website bugs, etc..
+         </p>
+         <p class="body-text">
+            The more you think about the present status of your site security, the better. It gives you an
+            opportunity
+            to fix it before any damage comes to it.
+         </p>
+         <h4 class="mt-5 mb-3">9. Use Web Application Firewall</h4>
+         <p class="body-text">
+            Also to keep your sire safer, ensure you apply for a web application firewall (WAF). It sets between
+            your
+            site server and the data association. The object is to peruse all of the data that goes through it to
+            ensure
+            your site.
+         </p>
+         <p class="body-text">
+            Today, most WAFs are cloud-based and are an attachment and-play administration. The cloud server is a
+            door
+            to all approaching traffic that obstructs all hacking endeavours. It additionally sifts through
+            different
+            sorts of undesirable traffic, similar to spammers and malevolent bots.
+         </p>
+         <h4 class="mt-5 mb-3">10. Tighten Network Security</h4>
+
+
+
+
+
+         <p class="body-text">At the point when you think your site is secure, you need to dissect your
+            organization
+            security. </p>
+         <p class="body-text">Employees who use office PCs may coincidentally be making a risk pathway to your
+            site.
+         </p>
+         <p class="body-text">To keep them from offering admittance to your site's server, consider doing the
+            mentioned
+            at your business: </p>
+
+         <ol>
+            <li>
+               <p> Terminate the PC logic after each short activity. </p>
+            </li>
+            <li>
+               <p> Make sure your framework remind your users to change the password in every specific time
+                  duration.
+               </p>
+            </li>
+            <li>
+               <p> Ensure all gadgets connected to the organization are filtered for malware each time they are
+                  attached.</p>
+            </li>
+         </ol>
+
+         <p class="mt-5 technology-heading">Security is Priority</p>
+         <p class="body-text">Security is the biggest challenge while working on the cloud server. It's a moving
+            objective, and it requires a great deal of exertion to keep steady over things. So how might you
+            fabricate a
+            business and keep steady over a changing security scene? Principally, you need to remember you're not
+            a
+            specialist and do all that you can to remain mindful of issues and stop them from really developing.
+            Much
+            the same as you wouldn't neglect to do your expenses, you would prefer not to fail to remember your
+            security
+            support.</p>
+         <p class="body-text">Odds are acceptable that in case you're constructing a business, your skill lies in
+            a
+            zone
+            other than security. Individuals can spend a lifetime committed to understanding the complexities of
+            security. You won't have the opportunity to turn into a specialist, however, you can't stand to look
+            the
+            alternate way. How to deal with it? There are some fundamental ideas to remember. </p>
+         <p class="body-text">Much the same as for some other sort of programming surrenders, you'll need a blend
+            of
+            tools to both forestall issues in any case and find and respond to issues that figure out how to fall
+            through. An even web attack on the central issues will get you far.</p>
+         <p class="font-weight-bold"><em>Therefore the listed are some manual tricks that will help you to keep on
+               with
+               the server security:</em></p>
+
+
+         <p class="mt-5 technology-heading">Automation and Scanning</p>
+
+         <p class="body-text">Always use scanned and automated devices especially when you need to connect the
+            third-party device to your personalized PC to the log in the admin from outside. As the use of an
+            unprotected or unscanned device may transfer viruses which can harm your site.</p>
+         <p class="mt-5 technology-heading">Professional Security Audits</p>
+
+         <p class="body-text">A bug fixing setup is an incredible method, to begin with, entrance testing,
+            however,
+            it's
+            not a viable replacement for employing experts. While outer analyzers can jab and nudge, they'll
+            always
+            be
+            unable to explore as profoundly as somebody you work intimately with. They can audit framework
+            engineering,
+            security rehearses, discharge the executives, and considerably more. </p>
+         <p class="body-text">
+            Recruiting experts is costly, and when you have no income it's presumably pointless excess. Similar to
+            whatever else, there's a scope of alternatives accessible as your business develops. When you have the
+            income, contract with somebody to do the basics. At that point, as the business creates, you'll have
+            the
+            option to grow and improve by acquiring bigger or more experienced groups. Whatever you choose to do,
+            don't
+            excuse proficient skill.
+         </p>
+         <p class="mt-5 technology-heading">Data Encryption at Rest</p>
+         <img class="mt-5 mb-3" src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/blog/data-encryption.jpg"
+            alt="Web server security services in UK perfectiongeeks" width="100%">
+         <p class="body-text">Encoding information is turning into a famous subject these days. While it has
+            gotten
+            regular to salt and hash passwords, practically any remaining information put away in information
+            bases
+            is
+            accessible in plain content. On the off chance that somebody gains admittance to the information base,
+            they
+            gain admittance to the information. If the information is encrypted, however, they would likewise need
+            to
+            get the keys for the information to be valuable. As hacks increment and frameworks become more
+            uncovered,
+            an
+            ever-increasing number of clients are mentioning extra layers of security, and the benefit of
+            encrypted
+            data
+            is expanding. </p>
+         <p class="body-text">Like some other security set up, encrypted data makes getting to the data less
+            helpful.
+            For things like back up, this is a minor compromise and clearly justified, despite any trouble.
+            Though,
+            incorporating encryption into your creative engineering is somewhat riskier or complicated. Some
+            information
+            stores and systems make it simpler, yet it is anything but not a typical practice yet. </p>
+         <p class="body-text">Also, encrypted data is truly a hint of something larger. You'll additionally have
+            to
+            actualize devices and process for safely putting away the keys, turning them, controlling access, and
+            how
+            to
+            react if a key is undermined. Luckily, OWASP has some strong direction about cryptographic storage to
+            assist
+            you with choosing what's appropriate for your application. It's a bit complex subject, yet this extra
+            mindfulness could help you move the correct way.</p>
+
+
+         <p class="mt-5 technology-heading">Authorization</p>
+         <p class="body-text">Approval is about granular authorizations. In the event that verification reveals to
+            you
+            what someone's identity is, approval tells you what they're permitted to do. Perhaps the best standard
+            is
+            to
+            keep it as basic as could reasonably be expected while as yet taking care of business. Progressed and
+            complex authorizations are ready for botches in allowing consent, and it's excessively simple for some
+            unacceptable individual to wind up with some unacceptable authorizations. The most progressive
+            approval
+            framework on the planet doesn't make a difference in the event that it makes disarray and mistakes
+            during
+            the time spent giving consent. </p>
+         <p class="body-text">It's most ideal not to think about each consent and afterwards make a granular
+            framework
+            for overseeing it. All things considered, consider your clients and how their jobs compare to your
+            framework. You can generally make more granular controls not far off, however, before all else, you
+            probably
+            have a couple of levels of consents. For example, you might need to restrict client the board to a
+            specific
+            group of clients, and you should limit admittance to account-level usefulness like charging and
+            undoing.
+            Keep it significant level from the start, and don't stress over profoundly granular consents until
+            there's
+            staggering interest from clients. </p>
+         <p class="body-text">Also, if your framework includes various clients, plan it to help numerous clients.
+            Having
+            clients share a login is requesting inconvenience. I've experienced many frameworks for truly genuine
+            software that faces failure for quite a long time to have multiuser frameworks, and they unavoidably
+            made
+            issues and difficulties in sharing client names and passwords. </p>
+         <p class="body-text">
+            At last, recall revalidating passwords for touchy activities. For example, when somebody goes to drop
+            a
+            record or change their secret key, you'll need to request the secret key before they proceed.
+            Something
+            else, in the event that somebody left their PC open, anybody could go along and drop their record or
+            change
+            their secret key. To assemble an office for revalidating passwords, and make it simple to include
+            front
+            of
+            any touchy solicitations.
+         </p>
+         <p class="mt-5 technology-heading">Session Management for Users</p>
+
+         <p class="body-text">If you never assembled a framework for overseeing verification and approval for a
+            web
+            application, invest some energy on this stuff. The tech side joined with client experience and
+            security
+            requirements can make an intricate framework with unlimited stages. </p>
+
+         <p class="body-text">How long should a session last before you log somebody out? When they log out, would
+            it
+            be
+            advisable for it to just be their present meeting or all meetings on all machines? Should clients have
+            the
+            option to see and deal with all dynamic meetings for their client account? What exercises ought to
+            require
+            the client to reappear their secret key? </p>
+
+         <p class="body-text">You likely don't have to give the progressed meeting the board session directly out
+            of
+            the
+            door, however, it merits remembering. Or then again, if your application has high-security
+            requirements,
+            you'll need to record all meetings attached to a particular client. This includes catching the IP
+            address,
+            client specialist, and working framework data so clients can distinguish any session that isn't their
+            own.
+            Mainly it has been assumed that this way of organizing the website login session can keep it secure
+            forever.
+         </p>
+
+         <h4 class="mt-3 technology-heading mb-3">Conclusion</h4>
+         <p class="body-text">As an entrepreneur and website admin, setting up a web portal is not just enough,
+            also
+            you
+            have to keep care of its security too, and for the security concern of your web server or website, if
+            your
+            prime to keep track its safety concern time to time, with including, time to time backup, updates of
+            tools
+            and frameworks, Changes in password and default settings. That simply means if you are well updated
+            with
+            the
+            security term and follow and implement all in your web portal carefully, then its harder for the web
+            attacker to harm your site easily.</p>
+
+
+
+      </div>
+   </section>
+   <!-- End Blog Single Area -->
+   <!-- Footer Area -->
+   <div class="toggle-menu-box">
+      <div class="">
+         <div class="row m-0 p-0">
+            <div class="col-md-3 col-lg-3 col-5 bg-org p-lg-5 p-3 h-100vh">
+               <ul class="m-0 p-0 pt-5">
+                  <li class="pb-2"><a href="https://www.perfectiongeeks.com/about"
+                        class="fs-5 fw-bold text-white text-capitalize fs-2 ">About Us</a></li>
+                  <li class="pb-2"><a href="https://www.perfectiongeeks.com/team"
+                        class="fs-5 fw-bold text-white text-capitalize fs-2 ">Our Team</a></li>
+                  <li class="pb-2"><a href="https://www.perfectiongeeks.com/technology"
+                        class="fs-5 fw-bold text-white text-capitalize fs-2 ">Technology</a></li>
+                  <li class="pb-2"><a href="https://www.perfectiongeeks.com/contact"
+                        class="fs-5 fw-bold text-white text-capitalize fs-2 ">Contact</a></li>
+                  <li class="pb-2"><a href="https://www.perfectiongeeks.com/covid-19"
+                        class="fs-5 fw-bold text-white text-capitalize fs-2 ">Coronavirus </a>
+                  </li>
+
+               </ul>
+               <div class="d-flex flags-sec">
+                  <a href="https://www.perfectiongeeks.com/en-us/" class=" ms-o">USA</a>
+
+                  <a href="https://www.perfectiongeeks.com/sg/" class=" ms-3">singapore</a>
+               </div>
+            </div>
+            <div class="col-md-9 col-lg-9 col-7 p-3 p-lg-5 bg-light service-menu">
+               <div class="row m-0 p-0">
+                  <div class="col-md-12 col-lg-12 pt-5">
+                     <div class="d-flex align-items-center justify-content-between">
+                        <div class=" fs-5 close-menu">
+                           <i class="fa fa-times"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-lg-4">
+                     <p class="fs-5 fw-500 text-black">Development Services</p>
+                     <ul class="p-0 m-0 toggle-menu-ul">
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/android-app-development-services">Android
+                              Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/artificial-intelligence-services">Artificial
+                              Intelligence</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/augmented-reality-services">Augmented
+                              Reality</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/bot-development-services">Bot Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/cloud-computing-services">Cloud Computing</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/dapp-development-services">Dapp
+                              Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/iot-app-development-services">IOT App
+                              Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/ios-app-development-services">Iphone App
+                              Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/machine-learning-services">Machine
+                              Learning</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/wearable-app-development-services">Wearable
+                              App</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/web-development-services">Web Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/software-development-company">Software
+                              Development Company</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/custom-software-development">Custom Software
+                              Development</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4 col-lg-4">
+                     <p class="fs-5 fw-500 text-black">Designing Services</p>
+                     <ul class="p-0 m-0 toggle-menu-ul">
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/uxui-design-services">UX UI Design</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/product-design-services">Product Design</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/web-design-services">Website Design</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/wireframe-design-services">Wireframe
+                              Design</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/mobile-ui-design-services">Mobile UI
+                              Design</a>
+                        </li>
+                     </ul>
+                     <p class="fs-5 fw-500 text-black mt-lg-5">Strategy</p>
+                     <ul class="p-0 m-0 toggle-menu-ul">
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/enterprise-mobility-solutions-services">Enterprise
+                              Mobility</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/strategic-consulting-services">Strategic
+                              Consulting</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/voice-technology-services">Voice
+                              Technology</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-4 col-lg-4">
+                     <p class="fs-5 fw-500 text-black">Blockchain</p>
+                     <ul class="p-0 m-0 toggle-menu-ul">
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/blockchain-app-development-services">Blockchain
+                              App
+                              Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/blockchain-solutions-services">Blockchain
+                              Solutions</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/eos-blockchain-development-services">EOS
+                              Blockchain
+                              Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/ethereum-development-services">Ethereum
+                              Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/hedera-hashgraph-development-services">Hedera
+                              Hashgraph
+                              Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/hyperledger-blockchain-app">Hyperledger
+                              Blockchain
+                              App</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/ipfs-blockchain-development-services">IPFS
+                              Blockchain
+                              Development</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/private-blockchain-solution-services">Private
+                              Blockchain
+                              Solutions</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/r3-corda-blockchain-development-services">R3
+                              Corda
+                              Blockchain</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/strato-blockchain-services">Strato
+                              Blockchain</a>
+                        </li>
+                        <li class="mb-2"><a class="fs-14 text-black text-capitalize"
+                              href="https://www.perfectiongeeks.com/MLM-app-developer">MLM app developer</a></li>
+                     </ul>
+                  </div>
+
+
+
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+   <div class="mt-5 mb-5 pt-5 contact-us">
+      <div class="container p-0">
+        <div class="row m-0 p-0 justify-content-center">
+          <div class="col-md-6 col-lg-6">
+            <h3 class="fs-big text-capitalize"> let's cut the distances <span class="fw-bold">today</span></h3>
+          </div>
+        </div>
+        <div class="row m-0 p-0 mt-5">
+          <div class="col-md-6 col-lg-6">
+            <div class="bg-blue p-5">
+              <p class="text-white text-center mb-0 text-capitalize fs-5">tell us about your project</p>
+              <form class="mt-5" name="myForm">
+                <div class="mb-4">
+                  <input type="text" class="form-control ps-0 input-box fs-14 text-capitalize" name="name" required=""
+                    placeholder="your Name">
+                </div>
+                <div class="mb-4">
+                  <input type="email" class="form-control ps-0 input-box fs-14 text-capitalize" name="email" required=""
+                    placeholder="your email">
+                </div>
+                <div class="mb-4">
+                  <input type="phone" class="form-control ps-0 input-box fs-14 text-capitalize" name="phone" required=""
+                    placeholder="your phone number">
+                </div>
+                <div class="mb-4">
+                  <input type="text" name="message" class="form-control ps-0 input-box fs-14 text-capitalize"
+                    required="" placeholder="your message">
+                </div>
+                <div class="text-center">
+                  <button id="submit-btn" onclick="validateform(this.form)" value="submit" name="submit" type="button"
+                    class="mt-5 white-btn p-2 ps-4 pe-4 fs-14 fw-500 text-blue">Book free consultation</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="bg-light p-5  h-100">
+              <p class="text-uppercase text-grey mb-0">Visit us</p>
+              <h5 class="text-capitalize mb-0 fw-500">Plot No-one, 249, Phase IV, Udyog<br> Vihar, Sector 18,
+                Gurugram,<br> Haryana 122022</h5>
+
+              <p class="text-uppercase text-grey mb-0 mt-5">call us</p>
+              <h5 class="text-capitalize mb-0 fw-500">+91 8920947884</h5>
+
+              <p class="text-uppercase text-grey mb-0 mt-5">email us</p>
+              <h5 class="mb-0 fw-500">sales@perfectiongeeks.com</h5>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-8 pr-lg-5">
+            <div class="mt-5">
+              <h3 class="fs-big text-capitalize mb-4">don't think about <span class="fw-bold">budget</span> just contact us
+                and <span class="fw-bold">take your business beyond the sky</span></h3>
+              <a href="https://www.perfectiongeeks.com/contact"
+                class="blue-btn fs-12 ps-5 pe-5 p-3 text-white mt-3 dis-block text-capitalize">book free
+                Consultation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white">
+      <div class="mt-5 laptop-footer">
+        <div class="container p-0">
+          <div class="row m-0 p-0">
+            <div class="col-md-12 col-lg-12 web-footer">
+              <div class="row pt-5 mt-lg-5 pb-5 m-0 p-0">
+                <div class="col-md-4 col-lg-3">
+                  <p class="fw-bold text-white">Design</p>
+                  <ul>
+
+                    <li><a href="https://www.perfectiongeeks.com/uxui-design-services">UX UI Design</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/product-design-services">Product Design</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/web-design-services">Website Design</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/wireframe-design-services">Wireframe Design</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/mobile-ui-design-services">Mobile UI Design</a>
+                    </li>
+                  </ul>
+
+                  <p class="fw-bold text-white mt-5">Strategy</p>
+                  <ul>
+                    <li><a href="https://www.perfectiongeeks.com/enterprise-mobility-solutions-services">Enterprise
+                        Mobility</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/strategic-consulting-services">Strategic
+                        Consulting</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/voice-technology-services">Voice Technology</a>
+                    </li>
+                  </ul>
+
+                </div>
+                <div class="col-md-4 col-lg-3">
+                  <p class="fw-bold text-white">Development</p>
+                  <ul>
+                    <li><a href="https://www.perfectiongeeks.com/android-app-development-services">Android
+                        Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/artificial-intelligence-services">Artificial
+                        Intelligence</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/augmented-reality-services">Augmented Reality</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/bot-development-services">Bot Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/cloud-computing-services">Cloud Computing</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/dapp-development-services">Dapp Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/iot-app-development-services">IOT App
+                        Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/ios-app-development-services">Iphone App
+                        Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/machine-learning-services">Machine Learning</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/wearable-app-development-services">Wearable App</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/web-development-services">Web Development</a>
+                    </li>
+                  </ul>
+
+                </div>
+                <div class="col-md-4 col-lg-3">
+                  <p class="fw-bold text-white ">Blockchain Solutions</p>
+                  <ul>
+                    <li><a href="https://www.perfectiongeeks.com/blockchain-app-development-services">Blockchain App
+                        Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/blockchain-solutions-services">Blockchain
+                        Solutions</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/eos-blockchain-development-services">EOS Blockchain
+                        Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/ethereum-development-services">Ethereum
+                        Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/hedera-hashgraph-development-services">Hedera
+                        Hashgraph
+                        Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/hyperledger-blockchain-app">Hyperledger Blockchain
+                        App</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/ipfs-blockchain-development-services">IPFS
+                        Blockchain
+                        Development</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/private-blockchain-solution-services">Private
+                        Blockchain
+                        Solutions</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/r3-corda-blockchain-development-services">R3 Corda
+                        Blockchain</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/strato-blockchain-services">Strato Blockchain</a>
+                    </li>
+                    <li><a href="https://www.perfectiongeeks.com/MLM-app-developer">MLM app developer</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                  <p class="fw-bold text-white">Contact</p>
+                  <div>
+                    <p class="fw-bold mt-3 mb-2">India</p>
+                    <div class="d-flex">
+                      <i class="fa fa-map-marker mt-1 foot-text mr-3"></i>
+                      <p class="mb-2 foot-text">Plot No-one, 249, Phase IV, Udyog
+                        Vihar,
+                        Sector 18, Gurugram, Haryana 122022
+                      </p>
+                    </div>
+                    <div class="d-flex">
+                      <i class="fa fa-phone mr-3 foot-text "></i>
+                      <a href="tel:8920947884"> 8920947884</a>
+                    </div>
+                    <p class="fw-bold mt-4">USA</p>
+                    <div class="d-flex">
+                      <i class="fa fa-map-marker mt-1 foot-text mr-3"></i>
+                      <p class="foot-text mb-0">1968 S. Coast Hwy, Laguna Beach, CA 92651, United States</p>
+                    </div>
+                    <div class="d-flex mt-2">
+                      <i class="fa fa-phone mr-3 foot-text"></i>
+                      <a href="tel:+19176282062"> +19176282062</a>
+                    </div>
+
+                    <p class=" mt-3 fw-bold mt-4 mb-2">E-Mail:</p>
+                    <a href="mailto:Sales@perfectiongeeks.com">Sales@perfectiongeeks.com</a>
+                    <a href="mailto:hr@perfectiongeeks.com">hr@perfectiongeeks.com</a>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row m-0 p-0">
+                <div class="col-lg-12 ">
+                  <p class="copyright text-center pt-3 pb-3">
+                    <img loading="lazy"
+                      src="https://stargazeevents.s3-accelerate.amazonaws.com/pfiles/new/images/img_dmca.png"
+                      alt="app development">
+                    <img loading="lazy" class="ssl_img"
+                      src="https://stargazeevents.s3-accelerate.amazonaws.com/pfiles/new/images/ssl-secure.png"
+                      alt="app development">Copyright © 2022 PerfectionGeeks Technologies | All Rights Reserved |<a
+                      class="" href="https://www.perfectiongeeks.com/policy">
+                      Policy
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5 p-3 mobile-footer mob-new">
+        <img class=" pt-5" src="images/logo.png">
+
+        <div class="row mt-3">
+          <div class="col-6">
+            <p class="fw-bold mt-3 mb-2">India</p>
+            <p class="mb-2 foot-text">Plot No-one, 249, Phase IV, Udyog
+              Vihar,
+              Sector 18, Gurugram, Haryana 122022
+            </p>
+          </div>
+          <div class="col-6">
+            <p class="fw-bold mt-3 mb-2">USA</p>
+            <p class="foot-text mb-0">1968 S. Coast Hwy, Laguna Beach, CA 92651, United States</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed   ps-0 pe-0" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  About
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li class=" pt-2 pb-2  "><a href="https://www.perfectiongeeks.com/about">About company</a></li>
+                    <li class=" pt-2 pb-2  "><a href="https://www.perfectiongeeks.com/team">Our
+                        Team</a></li>
+                  </ul>
+
+
+
+
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed    ps-0 pe-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Services
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <ul class=" ">
+                      <div class=" row mobile-services-box pl-3 ">
+                        <div class=" col-md-12 col-lg-3 p-2">
+
+
+                          <li><a class="dropdown-item p-2 ps-3" id="uxui-design"
+                              href="https://www.perfectiongeeks.com/uxui-design-services">Ux
+                              Ui Design</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="product-design"
+                              href="https://www.perfectiongeeks.com/product-design-services">Product
+                              Design</a>
+                          </li>
+
+                          <li><a class="dropdown-item p-2 ps-3" id="wireframe-design"
+                              href="https://www.perfectiongeeks.com/wireframe-design-services">Wireframe
+                              Design</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="mobile-ui-design"
+                              href="https://www.perfectiongeeks.com/mobile-ui-design-services">Mobile
+                              Ui
+                              Design</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="website-design"
+                              href="https://www.perfectiongeeks.com/web-design-services">Web
+                              Design
+                              Services</a>
+                          </li>
+
+                        </div>
+                        <div class="col-md-12 col-lg-3 p-2">
+
+                          </li>
+
+                          <li><a class="dropdown-item p-2 ps-3" id="android-development"
+                              href="https://www.perfectiongeeks.com/android-app-development-services">Android
+                              Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="web-development"
+                              href="https://www.perfectiongeeks.com/web-development-services">Web
+                              Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="artificial-intelligence"
+                              href="https://www.perfectiongeeks.com/artificial-intelligence-services">Artificial
+                              Intelligence</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="augmented-reality"
+                              href="https://www.perfectiongeeks.com/augmented-reality-services">Augumented
+                              Reality</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="bot-development"
+                              href="https://www.perfectiongeeks.com/bot-development-services">Bot
+                              Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="cloud-computing"
+                              href="https://www.perfectiongeeks.com/cloud-computing-services">Cloud
+                              Computing</a>
+                          </li>
+                          <li class="  ">
+                            <a class="dropdown-item p-2 ps-3" id="hedera-hashgraph-development"
+                              href="https://www.perfectiongeeks.com/software-development-company">Software
+                              Development</a>
+                          </li>
+                          <li class=" ">
+                            <a class="dropdown-item p-2 ps-3" id="hedera-hashgraph-development"
+                              href="https://www.perfectiongeeks.com/custom-software-development">Custom
+                              Software
+                              Development</a>
+                          </li>
+
+
+                          <li><a class="dropdown-item p-2 ps-3" id="dapp-development"
+                              href="https://www.perfectiongeeks.com/dapp-development-services">Dapp
+                              Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="iot-app-development"
+                              href="https://www.perfectiongeeks.com/iot-app-development-services">IOT
+                              App Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="ios-app-development"
+                              href="https://www.perfectiongeeks.com/ios-app-development-services">IOS
+                              App Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="wearable-app-development"
+                              href="https://www.perfectiongeeks.com/wearable-app-development-services">Wearable
+                              App Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="machine-learning"
+                              href="https://www.perfectiongeeks.com/machine-learning-services">Machine
+                              Learning</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="mlm-app-developement"
+                              href="https://www.perfectiongeeks.com/MLM-app-developer">MLM
+                              app developer</a></li>
+
+
+                        </div>
+                        <div class="col-md-12 col-lg-3 p-2">
+
+                          </li>
+
+                          <li><a class="dropdown-item p-2 ps-3" id="blockchain-solutions"
+                              href="https://www.perfectiongeeks.com/blockchain-solutions-services">Blockchain
+                              Solutions</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="blockchain-app-development"
+                              href="https://www.perfectiongeeks.com/blockchain-app-development-services">Blockchain
+                              App Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="eos-blockchain-development"
+                              href="https://www.perfectiongeeks.com/eos-blockchain-development-services">EOS
+                              Blockchain Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="ethereum-development"
+                              href="https://www.perfectiongeeks.com/ethereum-development-services">Ethereum
+                              Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="hedera-hashgraph-development"
+                              href="https://www.perfectiongeeks.com/hedera-hashgraph-development-services">Hedera
+                              Hashgraph Development</a>
+                          </li>
+
+                          <li><a class="dropdown-item p-2 ps-3" id="ipfs-blockchain-development"
+                              href="https://www.perfectiongeeks.com/ipfs-blockchain-development-services">IPFS
+                              Blockchain Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="private-blockchain-solution"
+                              href="https://www.perfectiongeeks.com/private-blockchain-solution-services">Private
+                              Blockchain Solutions</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="r3-corda-blockchain-development"
+                              href="https://www.perfectiongeeks.com/r3-corda-blockchain-development-services">R3
+                              Corda Blockchain Development</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="strato-blockchain"
+                              href="https://www.perfectiongeeks.com/strato-blockchain-services">Strato
+                              Blockchain</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="Hyperledger-blockchain-app"
+                              href="https://www.perfectiongeeks.com/hyperledger-blockchain-app">Hyperledger
+                              Blockchain App</a></li>
+
+
+                        </div>
+                        <div class="col-md-12 col-lg-3 p-2">
+
+                          </li>
+
+                          <li><a class="dropdown-item p-2 ps-3" id="enterprise-mobility-solutions"
+                              href="https://www.perfectiongeeks.com/enterprise-mobility-solutions-services">Enterprise
+                              Mobility Solution</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="voice-technology"
+                              href="https://www.perfectiongeeks.com/voice-technology-services">Voice
+                              Technology</a>
+                          </li>
+                          <li><a class="dropdown-item p-2 ps-3" id="strategic-consulting"
+                              href="https://www.perfectiongeeks.com/strategic-consulting-services">Strategic
+                              Consulting</a>
+                          </li>
+
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <a class="mobile-link  pt-2" href="https://www.perfectiongeeks.com/technology">Technology</a>
+
+
+            <a class="mobile-link pt-4" href="https://www.perfectiongeeks.com/portfolio">Portfolio</a>
+
+
+            <a class="mobile-link pt-4" href="https://www.perfectiongeeks.com/blog">Blog</a>
+
+
+            <a class="mobile-link pt-4" href="https://www.perfectiongeeks.com/contact">Contact</a>
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+
+        <div class="row m-0 p-0">
+          <div class="col-lg-12 p-0 ">
+            <p class="copyright  mt-4 pt-3 pb-3">
+              <img loading="lazy"
+                src="https://stargazeevents.s3-accelerate.amazonaws.com/pfiles/new/images/img_dmca.png"
+                alt="app development">
+              <img loading="lazy" class="ssl_img"
+                src="https://stargazeevents.s3-accelerate.amazonaws.com/pfiles/new/images/ssl-secure.png"
+                alt="app development">
+            </p>
+            <p>
+              Copyright © 2022 PerfectionGeeks Technologies | All Rights Reserved |<a class=""
+                href="https://www.perfectiongeeks.com/policy">
+                Policy
+              </a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+   <div class="mobile-toggle-menu bg-dark-6">
+      <div class="row m-0 p-0">
+         <div class="col-md-10 col-lg-10 col-10 h-100vh bg-org p-3">
+            <div class="justify-content-end close-menu-mob">
+               <i class="fa fa-times text-white fs-5"></i>
+            </div>
+            <ul class="m-0 p-0 pt-3">
+               <li class="pb-2"><a href="https://www.perfectiongeeks.com/about"
+                     class="fs-3 fw-bold text-white text-capitalize">About Us</a></li>
+               <li class="pb-2"><a href="https://www.perfectiongeeks.com/team"
+                     class="fs-3 fw-bold text-white text-capitalize">Our Team</a></li>
+               <li class="pb-2"><a href="#" class="fs-3 fw-bold text-white text-capitalize">Services </a></li>
+               <li class="pb-2"><a href="https://www.perfectiongeeks.com/technology"
+                     class="fs-3 fw-bold text-white text-capitalize">Technology</a></li>
+               <li class="pb-2"><a href="https://www.perfectiongeeks.com/contact"
+                     class="fs-3 fw-bold text-white text-capitalize">Contact</a></li>
+               <li class="pb-2"><a href="https://www.perfectiongeeks.com/covid-19"
+                     class="fs-3 fw-bold text-white text-capitalize">Coronavirus </a></li>
+            </ul>
+
+         </div>
+      </div>
+   </div>
+   <!-- End Footer Area -->
+   <!---phone menu-->
+
+   <section class="mobile-nav-menu text-center p-2">
+
+      <a href="https://www.perfectiongeeks.com">
+         <div class=" ">
+            <div class="d-flex justify-content-center">
+               <div class="mobile-menu-items  d-flex justify-content-center align-items-center">
+                  <img class="mobile-nav-menu-icon  " src="images/home/home-grey.svg" alt="home icon">
+               </div>
+            </div>
+            <p class=" ">Home</p>
+         </div>
+      </a>
+
+
+      <div class="services-mobile-menu">
+         <div class="d-flex justify-content-center">
+            <div class="mobile-menu-items d-flex justify-content-center align-items-center">
+               <img class="mobile-nav-menu-icon" src="images/home/services.svg" alt="services icon">
+            </div>
+         </div>
+         <p>Services</p>
+      </div>
+
+
+
+
+      <a href="https://www.perfectiongeeks.com/technology">
+         <div class=" ">
+            <div class="d-flex justify-content-center">
+               <div class="mobile-menu-items d-flex justify-content-center align-items-center">
+                  <img class="mobile-nav-menu-icon" src="images/home/technology.svg" alt="technology icon">
+               </div>
+            </div>
+            <p>Technology</p>
+         </div>
+      </a>
+
+
+      <a href="https://www.perfectiongeeks.com/blog">
+         <div class=" ">
+            <div class="d-flex justify-content-center">
+               <div class="mobile-menu-items d-flex justify-content-center align-items-center">
+                  <img class="mobile-nav-menu-icon" src="images/home/blog.svg" alt="blog icon">
+               </div>
+            </div>
+            <p>Blog</p>
+         </div>
+      </a>
+
+
+      <a href="https://www.perfectiongeeks.com/contact">
+         <div class=" ">
+            <div class="d-flex justify-content-center">
+               <div class="mobile-menu-items d-flex justify-content-center align-items-center">
+                  <img class="mobile-nav-menu-icon" src="images/home/contact.svg" alt="contact icon">
+               </div>
+            </div>
+            <p>Contact</p>
+         </div>
+      </a>
+
+
+   </section>
+
+   <section class="mobile-menu-services  ">
+      <div class="mobile-menu-services-items-box p-3">
+
+         <div class="scroll-top-box">
+            <div class="scroll-box-services pt-2 pb-3">
+
+               <a href="https://www.perfectiongeeks.com/web-development-services">
+                  <div>
+                     <div class="d-flex justify-content-center">
+                        <div class="services-icon-box d-flex justify-content-center align-items-center">
+                           <img src="images/home/web.svg" alt="web icon">
+                        </div>
+                     </div>
+                     <p class="text-center mt-2">Web Development</p>
+                  </div>
+               </a>
+
+               <a href="https://www.perfectiongeeks.com/android-app-development-services">
+                  <div>
+                     <div class="d-flex justify-content-center">
+                        <div class="services-icon-box d-flex justify-content-center align-items-center">
+                           <img src="images/home/app.svg" alt="web icon">
+                        </div>
+                     </div>
+                     <p class="text-center  mt-2">Android App Development</p>
+                  </div>
+               </a>
+
+               <a href="https://www.perfectiongeeks.com/cloud-computing-services">
+                  <div>
+                     <div class="d-flex justify-content-center">
+                        <div class="services-icon-box d-flex justify-content-center align-items-center">
+                           <img src="images/home/cloud.svg" alt="web icon">
+                        </div>
+                     </div>
+                     <p class="text-center  mt-2">Cloud Computing </p>
+                  </div>
+               </a>
+
+               <a href="https://www.perfectiongeeks.com/artificial-intelligence-services">
+                  <div>
+                     <div class="d-flex justify-content-center">
+                        <div class="services-icon-box d-flex justify-content-center align-items-center">
+                           <img src="images/home/ai.svg" alt="web icon">
+                        </div>
+                     </div>
+                     <p class="text-center  mt-2">Artificial Intelligence </p>
+                  </div>
+               </a>
+
+               <a href="https://www.perfectiongeeks.com/ios-app-development-services">
+                  <div>
+                     <div class="d-flex justify-content-center">
+                        <div class="services-icon-box d-flex justify-content-center align-items-center">
+                           <img src="images/home/app.svg" alt="web icon">
+                        </div>
+                     </div>
+                     <p class="text-center  mt-2">iOS App Development </p>
+                  </div>
+               </a>
+
+               <a href="https://www.perfectiongeeks.com/blockchain-app-development-services">
+                  <div>
+                     <div class="d-flex justify-content-center">
+                        <div class="services-icon-box d-flex justify-content-center align-items-center">
+                           <img src="images/home/blockchain app.svg" alt="web icon">
+                        </div>
+                     </div>
+                     <p class="text-center  mt-2">Blockchain App Development </p>
+                  </div>
+               </a>
+
+
+
+
+            </div>
+         </div>
+
+
+      </div>
+   </section>
+
+   <!--phone menu end-->
+   <!-- Modal -->
+   <div class="modal fade" id="contact_modal" tabindex="-1" role="dialog" aria-labelledby="contact_modalTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+         <div class="modal-content">
+            <div class="modal-body p-0">
+               <div class="row">
+                  <div class="col-md-5">
+                     <img src="https://d32yelkel05fze.cloudfront.net/pfiles/new/images/contactus.jpg" class="img-fluid"
+                        alt="contact us">
+                  </div>
+                  <div class="col-md-7">
+                     <div class="modal-contentt">
+                        <h2>Wanna Talk? We would love to hear.</h2>
+                        <h6>For sales queries, call us at:</h6>
+                        <a href="tel:+91-8920947884" class="theme_btn">+91 8920947884</a>
+                        <a href="mailto:sales@perfectiongeeks.com" class="theme_btn">sales@perfectiongeeks.com</a>
+                        <h2>Looking to be a part of our team?</h2>
+                        <h6>If you’ve got powerful skills, we’ll pay your bills. Contact our HR at:</h6>
+                        <a href="mailto:hr@perfectiongeeks.com" class="theme_btn">hr@perfectiongeeks.com</a>
+                        <a href="tel:+91-8920947884" class="theme_btn">+91 8920947884</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--covid*--btn-->
+   <a class="covid-btn" href="https://www.perfectiongeeks.com/covid-19">
+      Coronavirus Crisis
+   </a>
+   <!--covid* btn end-->
+   <!-- Scroll Top Button -->
+   <button type="button" class="scroll-top">
+      <i class="fa fa-angle-up"></i>
+   </button>
+
+   <!-- Preloader -->
+
+
+   <!--schema-->
+   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Which one is trickier programming platform for backend development PHP or Node.Js?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Definitely, node.js is tricky and a bit difficult platform to work on by being a beginner developer, instead of this PHP provides a very easy development environment."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can I use NodeJS development with PHP?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Definitely. You can use NodeJS development with PHP. You should incorporate Node with your PHP application to do as such. You would have to design a few things to exploit Node's Event-based engineering before completely coordinating it for your PHP application."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can NodeJS development services replace PHP in future?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "NodeJS and PHP are not there to supplant one another. Both have their own facts and features. In spite of the fact that NodeJS may appear as though a substitute for PHP, however, NodeJS developmemt services won't replace it. PHP's versatility and flexibility for web applications and sites can't be overtaken by NodeJS. Simultaneously, NodeJS is productive in enormous solicitations. Along these lines, both are autonomous and selective with regards to activities."
+    }
+  }]
+}
+</script>
+   <!--schema end-->
+   <!-- jQuery v3.3.1 -->
+   <script src="js/theme.js"></script>
+   <script src="https://d32yelkel05fze.cloudfront.net/pfiles/new/js/jquery-3.3.1.min.js"></script>
+   <script
+      src="https://perfectiongeeks.s3.ap-south-1.amazonaws.com/perfectiongeeks/js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-1.11.2.js"></script>
+   <script src="js/main.js"></script>
+   <script>
+      $(document).ready(function () {
+         $(".show-mob-menu").click(function () {
+
+            $(".mobile-menu").animate({
+               width: "toggle"
+            });
+         });
+
+         $(".close-menu").click(function () {
+            $(".mobile-menu").hide();
+         });
+      });
+      $(".show-services").click(function () {
+         $(".toggle-services").slideToggle("slow");
+      });
+
+      $(".close-toggle-services").click(function () {
+         $(".toggle-services").slideUp("slow");
+      });
+
+
+   </script>
+</body>
+
+</html>
