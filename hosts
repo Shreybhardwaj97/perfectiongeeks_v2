@@ -125742,3 +125742,6 @@ ff02::3 ip6-allhosts
 # 0.0.0.0 example.com
 0.0.0.0 in.linkedin.com
 0.0.0.0 www.linkedin.com
+0.0.0.0 www.aajtak.in
+0.0.0.0 aajtak.in
+0.0.0.0 youtube.com
